@@ -20,22 +20,17 @@ int main()
 
     // Calculated the average of the three numbers and stored it in a variable "average".
     double average = (firstNumber + secondNumber + thirdNumber) / 3.0;
-
     // calculated the modulus of 1 and 5 and stored it in "mod" and displayed it using cout function.
     double mod = firstNumber % secondNumber;
     cout << "The modulus of 1 and 5 is "<< mod << endl;
-
     // calculated the modulus of 1 and 7 and stored it in "mod" and displayed it using cout function.
     mod = firstNumber % thirdNumber;
     cout <<"The modulus of 1 and 7 is " << mod << endl;
-
     // calculated the modulus of 5 and 7 and stored it in "mod" and displayed it using cout function.
     mod = secondNumber % thirdNumber;
     cout <<"The modulus of 5 and 7 is "<< mod << endl;
-
     // displayed the value of "average" using cout function.
     cout << "The average of 1,5 and 7 is "<< average << endl;
-
     // Returned 0 to end the program.
     return 0;
 }
