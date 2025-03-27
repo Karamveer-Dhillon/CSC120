@@ -1,0 +1,159 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.30"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "CSC120",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "Dhillon_Topic4_Lab2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Dhillon_Topic4_Lab2-Debug-6afd849fa075dd31c623.json",
+					"name" : "Dhillon_Topic4_Lab2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Dhillon_Topic4_Quiz::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Dhillon_Topic4_Quiz-Debug-31d69fd744f2162149bc.json",
+					"name" : "Dhillon_Topic4_Quiz",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Dhillon_Topic4_Reading_Assignment::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Dhillon_Topic4_Reading_Assignment-Debug-fd14e23b23c453def49a.json",
+					"name" : "Dhillon_Topic4_Reading_Assignment",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Dhillon_Topic5_lab1::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Dhillon_Topic5_lab1-Debug-ed45385a23ffbd8aa720.json",
+					"name" : "Dhillon_Topic5_lab1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dhillon_Topic2_HW::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dhillon_Topic2_HW-Debug-d65b1301e392df90fc02.json",
+					"name" : "dhillon_Topic2_HW",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dhillon_Topic2_Lab1::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dhillon_Topic2_Lab1-Debug-fb3329af3de4f211f0a2.json",
+					"name" : "dhillon_Topic2_Lab1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dhillon_Topic2_Lab3::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dhillon_Topic2_Lab3-Debug-0a99eaadd1856ea67777.json",
+					"name" : "dhillon_Topic2_Lab3",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dhillon_Topic2_Lab4::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dhillon_Topic2_Lab4-Debug-c36dd6896d6655fe51d2.json",
+					"name" : "dhillon_Topic2_Lab4",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dhillon_Topic2_Lab5::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dhillon_Topic2_Lab5-Debug-63e5338693711efd7cb3.json",
+					"name" : "dhillon_Topic2_Lab5",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dhillon_Topic3_Lab1::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dhillon_Topic3_Lab1-Debug-612ed29a5b5b057e2dcc.json",
+					"name" : "dhillon_Topic3_Lab1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dhillon_Topic4_lab1::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dhillon_Topic4_lab1-Debug-e560385e7846195af1cd.json",
+					"name" : "dhillon_Topic4_lab1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dhillon_assessment1_ch1_2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dhillon_assessment1_ch1_2-Debug-fb0af125fce88e57a75f.json",
+					"name" : "dhillon_assessment1_ch1_2",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "D:/Git_repo/School/CSC120/cmake-build-debug",
+		"source" : "D:/Git_repo/School/CSC120"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}

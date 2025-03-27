@@ -41,128 +41,400 @@ include CMakeFiles/rules.ninja
 
 cmake_ninja_workdir = D$:/Git_repo/School/CSC120/cmake-build-debug/
 # =============================================================================
-# Object build statements for EXECUTABLE target CSC120
+# Object build statements for EXECUTABLE target Dhillon_Topic4_Lab2
 
 
 #############################################
-# Order-only phony target for CSC120
+# Order-only phony target for Dhillon_Topic4_Lab2
 
-build cmake_object_order_depends_target_CSC120: phony || .
+build cmake_object_order_depends_target_Dhillon_Topic4_Lab2: phony || .
 
-build CMakeFiles/CSC120.dir/dhillon_assessment1_ch1_2.cpp.obj: CXX_COMPILER__CSC120_unscanned_Debug D$:/Git_repo/School/CSC120/dhillon_assessment1_ch1_2.cpp || cmake_object_order_depends_target_CSC120
-  DEP_FILE = CMakeFiles\CSC120.dir\dhillon_assessment1_ch1_2.cpp.obj.d
-  FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\CSC120.dir
-  OBJECT_FILE_DIR = CMakeFiles\CSC120.dir
-  TARGET_COMPILE_PDB = CMakeFiles\CSC120.dir\
-  TARGET_PDB = CSC120.pdb
-
-build CMakeFiles/CSC120.dir/dhillon_Topic2_HW.cpp.obj: CXX_COMPILER__CSC120_unscanned_Debug D$:/Git_repo/School/CSC120/dhillon_Topic2_HW.cpp || cmake_object_order_depends_target_CSC120
-  DEP_FILE = CMakeFiles\CSC120.dir\dhillon_Topic2_HW.cpp.obj.d
-  FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\CSC120.dir
-  OBJECT_FILE_DIR = CMakeFiles\CSC120.dir
-  TARGET_COMPILE_PDB = CMakeFiles\CSC120.dir\
-  TARGET_PDB = CSC120.pdb
-
-build CMakeFiles/CSC120.dir/dhillon_Topic2_Lab1.cpp.obj: CXX_COMPILER__CSC120_unscanned_Debug D$:/Git_repo/School/CSC120/dhillon_Topic2_Lab1.cpp || cmake_object_order_depends_target_CSC120
-  DEP_FILE = CMakeFiles\CSC120.dir\dhillon_Topic2_Lab1.cpp.obj.d
-  FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\CSC120.dir
-  OBJECT_FILE_DIR = CMakeFiles\CSC120.dir
-  TARGET_COMPILE_PDB = CMakeFiles\CSC120.dir\
-  TARGET_PDB = CSC120.pdb
-
-build CMakeFiles/CSC120.dir/dhillon_Topic2_Lab3.cpp.obj: CXX_COMPILER__CSC120_unscanned_Debug D$:/Git_repo/School/CSC120/dhillon_Topic2_Lab3.cpp || cmake_object_order_depends_target_CSC120
-  DEP_FILE = CMakeFiles\CSC120.dir\dhillon_Topic2_Lab3.cpp.obj.d
-  FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\CSC120.dir
-  OBJECT_FILE_DIR = CMakeFiles\CSC120.dir
-  TARGET_COMPILE_PDB = CMakeFiles\CSC120.dir\
-  TARGET_PDB = CSC120.pdb
-
-build CMakeFiles/CSC120.dir/dhillon_Topic2_Lab4.cpp.obj: CXX_COMPILER__CSC120_unscanned_Debug D$:/Git_repo/School/CSC120/dhillon_Topic2_Lab4.cpp || cmake_object_order_depends_target_CSC120
-  DEP_FILE = CMakeFiles\CSC120.dir\dhillon_Topic2_Lab4.cpp.obj.d
-  FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\CSC120.dir
-  OBJECT_FILE_DIR = CMakeFiles\CSC120.dir
-  TARGET_COMPILE_PDB = CMakeFiles\CSC120.dir\
-  TARGET_PDB = CSC120.pdb
-
-build CMakeFiles/CSC120.dir/dhillon_Topic2_Lab5.cpp.obj: CXX_COMPILER__CSC120_unscanned_Debug D$:/Git_repo/School/CSC120/dhillon_Topic2_Lab5.cpp || cmake_object_order_depends_target_CSC120
-  DEP_FILE = CMakeFiles\CSC120.dir\dhillon_Topic2_Lab5.cpp.obj.d
-  FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\CSC120.dir
-  OBJECT_FILE_DIR = CMakeFiles\CSC120.dir
-  TARGET_COMPILE_PDB = CMakeFiles\CSC120.dir\
-  TARGET_PDB = CSC120.pdb
-
-build CMakeFiles/CSC120.dir/dhillon_Topic3_Lab1.cpp.obj: CXX_COMPILER__CSC120_unscanned_Debug D$:/Git_repo/School/CSC120/dhillon_Topic3_Lab1.cpp || cmake_object_order_depends_target_CSC120
-  DEP_FILE = CMakeFiles\CSC120.dir\dhillon_Topic3_Lab1.cpp.obj.d
-  FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\CSC120.dir
-  OBJECT_FILE_DIR = CMakeFiles\CSC120.dir
-  TARGET_COMPILE_PDB = CMakeFiles\CSC120.dir\
-  TARGET_PDB = CSC120.pdb
-
-build CMakeFiles/CSC120.dir/dhillon_Topic4_lab1.cpp.obj: CXX_COMPILER__CSC120_unscanned_Debug D$:/Git_repo/School/CSC120/dhillon_Topic4_lab1.cpp || cmake_object_order_depends_target_CSC120
-  DEP_FILE = CMakeFiles\CSC120.dir\dhillon_Topic4_lab1.cpp.obj.d
-  FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\CSC120.dir
-  OBJECT_FILE_DIR = CMakeFiles\CSC120.dir
-  TARGET_COMPILE_PDB = CMakeFiles\CSC120.dir\
-  TARGET_PDB = CSC120.pdb
-
-build CMakeFiles/CSC120.dir/Dhillon_Topic4_Lab2.cpp.obj: CXX_COMPILER__CSC120_unscanned_Debug D$:/Git_repo/School/CSC120/Dhillon_Topic4_Lab2.cpp || cmake_object_order_depends_target_CSC120
-  DEP_FILE = CMakeFiles\CSC120.dir\Dhillon_Topic4_Lab2.cpp.obj.d
-  FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\CSC120.dir
-  OBJECT_FILE_DIR = CMakeFiles\CSC120.dir
-  TARGET_COMPILE_PDB = CMakeFiles\CSC120.dir\
-  TARGET_PDB = CSC120.pdb
-
-build CMakeFiles/CSC120.dir/Dhillon_Topic4_Quiz.cpp.obj: CXX_COMPILER__CSC120_unscanned_Debug D$:/Git_repo/School/CSC120/Dhillon_Topic4_Quiz.cpp || cmake_object_order_depends_target_CSC120
-  DEP_FILE = CMakeFiles\CSC120.dir\Dhillon_Topic4_Quiz.cpp.obj.d
-  FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\CSC120.dir
-  OBJECT_FILE_DIR = CMakeFiles\CSC120.dir
-  TARGET_COMPILE_PDB = CMakeFiles\CSC120.dir\
-  TARGET_PDB = CSC120.pdb
-
-build CMakeFiles/CSC120.dir/Dhillon_Topic4_Reading_Assignment.cpp.obj: CXX_COMPILER__CSC120_unscanned_Debug D$:/Git_repo/School/CSC120/Dhillon_Topic4_Reading_Assignment.cpp || cmake_object_order_depends_target_CSC120
-  DEP_FILE = CMakeFiles\CSC120.dir\Dhillon_Topic4_Reading_Assignment.cpp.obj.d
-  FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\CSC120.dir
-  OBJECT_FILE_DIR = CMakeFiles\CSC120.dir
-  TARGET_COMPILE_PDB = CMakeFiles\CSC120.dir\
-  TARGET_PDB = CSC120.pdb
-
-build CMakeFiles/CSC120.dir/Dhillon_Topic5_lab1.cpp.obj: CXX_COMPILER__CSC120_unscanned_Debug D$:/Git_repo/School/CSC120/Dhillon_Topic5_lab1.cpp || cmake_object_order_depends_target_CSC120
-  DEP_FILE = CMakeFiles\CSC120.dir\Dhillon_Topic5_lab1.cpp.obj.d
-  FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\CSC120.dir
-  OBJECT_FILE_DIR = CMakeFiles\CSC120.dir
-  TARGET_COMPILE_PDB = CMakeFiles\CSC120.dir\
-  TARGET_PDB = CSC120.pdb
+build CMakeFiles/Dhillon_Topic4_Lab2.dir/Dhillon_Topic4_Lab2.cpp.obj: CXX_COMPILER__Dhillon_Topic4_Lab2_unscanned_Debug D$:/Git_repo/School/CSC120/Dhillon_Topic4_Lab2.cpp || cmake_object_order_depends_target_Dhillon_Topic4_Lab2
+  DEP_FILE = CMakeFiles\Dhillon_Topic4_Lab2.dir\Dhillon_Topic4_Lab2.cpp.obj.d
+  FLAGS = -g -std=gnu++23 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Dhillon_Topic4_Lab2.dir
+  OBJECT_FILE_DIR = CMakeFiles\Dhillon_Topic4_Lab2.dir
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target CSC120
+# Link build statements for EXECUTABLE target Dhillon_Topic4_Lab2
 
 
 #############################################
-# Link the executable CSC120.exe
+# Link the executable bin\Dhillon_Topic4_Lab2.exe
 
-build CSC120.exe: CXX_EXECUTABLE_LINKER__CSC120_Debug CMakeFiles/CSC120.dir/dhillon_assessment1_ch1_2.cpp.obj CMakeFiles/CSC120.dir/dhillon_Topic2_HW.cpp.obj CMakeFiles/CSC120.dir/dhillon_Topic2_Lab1.cpp.obj CMakeFiles/CSC120.dir/dhillon_Topic2_Lab3.cpp.obj CMakeFiles/CSC120.dir/dhillon_Topic2_Lab4.cpp.obj CMakeFiles/CSC120.dir/dhillon_Topic2_Lab5.cpp.obj CMakeFiles/CSC120.dir/dhillon_Topic3_Lab1.cpp.obj CMakeFiles/CSC120.dir/dhillon_Topic4_lab1.cpp.obj CMakeFiles/CSC120.dir/Dhillon_Topic4_Lab2.cpp.obj CMakeFiles/CSC120.dir/Dhillon_Topic4_Quiz.cpp.obj CMakeFiles/CSC120.dir/Dhillon_Topic4_Reading_Assignment.cpp.obj CMakeFiles/CSC120.dir/Dhillon_Topic5_lab1.cpp.obj
+build bin/Dhillon_Topic4_Lab2.exe: CXX_EXECUTABLE_LINKER__Dhillon_Topic4_Lab2_Debug CMakeFiles/Dhillon_Topic4_Lab2.dir/Dhillon_Topic4_Lab2.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\CSC120.dir
+  OBJECT_DIR = CMakeFiles\Dhillon_Topic4_Lab2.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = CMakeFiles\CSC120.dir\
-  TARGET_FILE = CSC120.exe
-  TARGET_IMPLIB = libCSC120.dll.a
-  TARGET_PDB = CSC120.pdb
+  TARGET_FILE = bin\Dhillon_Topic4_Lab2.exe
+  TARGET_IMPLIB = bin\libDhillon_Topic4_Lab2.dll.a
+  TARGET_PDB = Dhillon_Topic4_Lab2.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Dhillon_Topic4_Quiz
+
+
+#############################################
+# Order-only phony target for Dhillon_Topic4_Quiz
+
+build cmake_object_order_depends_target_Dhillon_Topic4_Quiz: phony || .
+
+build CMakeFiles/Dhillon_Topic4_Quiz.dir/Dhillon_Topic4_Quiz.cpp.obj: CXX_COMPILER__Dhillon_Topic4_Quiz_unscanned_Debug D$:/Git_repo/School/CSC120/Dhillon_Topic4_Quiz.cpp || cmake_object_order_depends_target_Dhillon_Topic4_Quiz
+  DEP_FILE = CMakeFiles\Dhillon_Topic4_Quiz.dir\Dhillon_Topic4_Quiz.cpp.obj.d
+  FLAGS = -g -std=gnu++23 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Dhillon_Topic4_Quiz.dir
+  OBJECT_FILE_DIR = CMakeFiles\Dhillon_Topic4_Quiz.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Dhillon_Topic4_Quiz
+
+
+#############################################
+# Link the executable bin\Dhillon_Topic4_Quiz.exe
+
+build bin/Dhillon_Topic4_Quiz.exe: CXX_EXECUTABLE_LINKER__Dhillon_Topic4_Quiz_Debug CMakeFiles/Dhillon_Topic4_Quiz.dir/Dhillon_Topic4_Quiz.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\Dhillon_Topic4_Quiz.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = bin\Dhillon_Topic4_Quiz.exe
+  TARGET_IMPLIB = bin\libDhillon_Topic4_Quiz.dll.a
+  TARGET_PDB = Dhillon_Topic4_Quiz.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Dhillon_Topic4_Reading_Assignment
+
+
+#############################################
+# Order-only phony target for Dhillon_Topic4_Reading_Assignment
+
+build cmake_object_order_depends_target_Dhillon_Topic4_Reading_Assignment: phony || .
+
+build CMakeFiles/Dhillon_Topic4_Reading_Assignment.dir/Dhillon_Topic4_Reading_Assignment.cpp.obj: CXX_COMPILER__Dhillon_Topic4_Reading_Assignment_unscanned_Debug D$:/Git_repo/School/CSC120/Dhillon_Topic4_Reading_Assignment.cpp || cmake_object_order_depends_target_Dhillon_Topic4_Reading_Assignment
+  DEP_FILE = CMakeFiles\Dhillon_Topic4_Reading_Assignment.dir\Dhillon_Topic4_Reading_Assignment.cpp.obj.d
+  FLAGS = -g -std=gnu++23 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Dhillon_Topic4_Reading_Assignment.dir
+  OBJECT_FILE_DIR = CMakeFiles\Dhillon_Topic4_Reading_Assignment.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Dhillon_Topic4_Reading_Assignment
+
+
+#############################################
+# Link the executable bin\Dhillon_Topic4_Reading_Assignment.exe
+
+build bin/Dhillon_Topic4_Reading_Assignment.exe: CXX_EXECUTABLE_LINKER__Dhillon_Topic4_Reading_Assignment_Debug CMakeFiles/Dhillon_Topic4_Reading_Assignment.dir/Dhillon_Topic4_Reading_Assignment.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\Dhillon_Topic4_Reading_Assignment.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = bin\Dhillon_Topic4_Reading_Assignment.exe
+  TARGET_IMPLIB = bin\libDhillon_Topic4_Reading_Assignment.dll.a
+  TARGET_PDB = Dhillon_Topic4_Reading_Assignment.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Dhillon_Topic5_lab1
+
+
+#############################################
+# Order-only phony target for Dhillon_Topic5_lab1
+
+build cmake_object_order_depends_target_Dhillon_Topic5_lab1: phony || .
+
+build CMakeFiles/Dhillon_Topic5_lab1.dir/Dhillon_Topic5_lab1.cpp.obj: CXX_COMPILER__Dhillon_Topic5_lab1_unscanned_Debug D$:/Git_repo/School/CSC120/Dhillon_Topic5_lab1.cpp || cmake_object_order_depends_target_Dhillon_Topic5_lab1
+  DEP_FILE = CMakeFiles\Dhillon_Topic5_lab1.dir\Dhillon_Topic5_lab1.cpp.obj.d
+  FLAGS = -g -std=gnu++23 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Dhillon_Topic5_lab1.dir
+  OBJECT_FILE_DIR = CMakeFiles\Dhillon_Topic5_lab1.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Dhillon_Topic5_lab1
+
+
+#############################################
+# Link the executable bin\Dhillon_Topic5_lab1.exe
+
+build bin/Dhillon_Topic5_lab1.exe: CXX_EXECUTABLE_LINKER__Dhillon_Topic5_lab1_Debug CMakeFiles/Dhillon_Topic5_lab1.dir/Dhillon_Topic5_lab1.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\Dhillon_Topic5_lab1.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = bin\Dhillon_Topic5_lab1.exe
+  TARGET_IMPLIB = bin\libDhillon_Topic5_lab1.dll.a
+  TARGET_PDB = Dhillon_Topic5_lab1.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target dhillon_Topic2_HW
+
+
+#############################################
+# Order-only phony target for dhillon_Topic2_HW
+
+build cmake_object_order_depends_target_dhillon_Topic2_HW: phony || .
+
+build CMakeFiles/dhillon_Topic2_HW.dir/dhillon_Topic2_HW.cpp.obj: CXX_COMPILER__dhillon_Topic2_HW_unscanned_Debug D$:/Git_repo/School/CSC120/dhillon_Topic2_HW.cpp || cmake_object_order_depends_target_dhillon_Topic2_HW
+  DEP_FILE = CMakeFiles\dhillon_Topic2_HW.dir\dhillon_Topic2_HW.cpp.obj.d
+  FLAGS = -g -std=gnu++23 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\dhillon_Topic2_HW.dir
+  OBJECT_FILE_DIR = CMakeFiles\dhillon_Topic2_HW.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target dhillon_Topic2_HW
+
+
+#############################################
+# Link the executable bin\dhillon_Topic2_HW.exe
+
+build bin/dhillon_Topic2_HW.exe: CXX_EXECUTABLE_LINKER__dhillon_Topic2_HW_Debug CMakeFiles/dhillon_Topic2_HW.dir/dhillon_Topic2_HW.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\dhillon_Topic2_HW.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = bin\dhillon_Topic2_HW.exe
+  TARGET_IMPLIB = bin\libdhillon_Topic2_HW.dll.a
+  TARGET_PDB = dhillon_Topic2_HW.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target dhillon_Topic2_Lab1
+
+
+#############################################
+# Order-only phony target for dhillon_Topic2_Lab1
+
+build cmake_object_order_depends_target_dhillon_Topic2_Lab1: phony || .
+
+build CMakeFiles/dhillon_Topic2_Lab1.dir/dhillon_Topic2_Lab1.cpp.obj: CXX_COMPILER__dhillon_Topic2_Lab1_unscanned_Debug D$:/Git_repo/School/CSC120/dhillon_Topic2_Lab1.cpp || cmake_object_order_depends_target_dhillon_Topic2_Lab1
+  DEP_FILE = CMakeFiles\dhillon_Topic2_Lab1.dir\dhillon_Topic2_Lab1.cpp.obj.d
+  FLAGS = -g -std=gnu++23 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\dhillon_Topic2_Lab1.dir
+  OBJECT_FILE_DIR = CMakeFiles\dhillon_Topic2_Lab1.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target dhillon_Topic2_Lab1
+
+
+#############################################
+# Link the executable bin\dhillon_Topic2_Lab1.exe
+
+build bin/dhillon_Topic2_Lab1.exe: CXX_EXECUTABLE_LINKER__dhillon_Topic2_Lab1_Debug CMakeFiles/dhillon_Topic2_Lab1.dir/dhillon_Topic2_Lab1.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\dhillon_Topic2_Lab1.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = bin\dhillon_Topic2_Lab1.exe
+  TARGET_IMPLIB = bin\libdhillon_Topic2_Lab1.dll.a
+  TARGET_PDB = dhillon_Topic2_Lab1.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target dhillon_Topic2_Lab3
+
+
+#############################################
+# Order-only phony target for dhillon_Topic2_Lab3
+
+build cmake_object_order_depends_target_dhillon_Topic2_Lab3: phony || .
+
+build CMakeFiles/dhillon_Topic2_Lab3.dir/dhillon_Topic2_Lab3.cpp.obj: CXX_COMPILER__dhillon_Topic2_Lab3_unscanned_Debug D$:/Git_repo/School/CSC120/dhillon_Topic2_Lab3.cpp || cmake_object_order_depends_target_dhillon_Topic2_Lab3
+  DEP_FILE = CMakeFiles\dhillon_Topic2_Lab3.dir\dhillon_Topic2_Lab3.cpp.obj.d
+  FLAGS = -g -std=gnu++23 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\dhillon_Topic2_Lab3.dir
+  OBJECT_FILE_DIR = CMakeFiles\dhillon_Topic2_Lab3.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target dhillon_Topic2_Lab3
+
+
+#############################################
+# Link the executable bin\dhillon_Topic2_Lab3.exe
+
+build bin/dhillon_Topic2_Lab3.exe: CXX_EXECUTABLE_LINKER__dhillon_Topic2_Lab3_Debug CMakeFiles/dhillon_Topic2_Lab3.dir/dhillon_Topic2_Lab3.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\dhillon_Topic2_Lab3.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = bin\dhillon_Topic2_Lab3.exe
+  TARGET_IMPLIB = bin\libdhillon_Topic2_Lab3.dll.a
+  TARGET_PDB = dhillon_Topic2_Lab3.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target dhillon_Topic2_Lab4
+
+
+#############################################
+# Order-only phony target for dhillon_Topic2_Lab4
+
+build cmake_object_order_depends_target_dhillon_Topic2_Lab4: phony || .
+
+build CMakeFiles/dhillon_Topic2_Lab4.dir/dhillon_Topic2_Lab4.cpp.obj: CXX_COMPILER__dhillon_Topic2_Lab4_unscanned_Debug D$:/Git_repo/School/CSC120/dhillon_Topic2_Lab4.cpp || cmake_object_order_depends_target_dhillon_Topic2_Lab4
+  DEP_FILE = CMakeFiles\dhillon_Topic2_Lab4.dir\dhillon_Topic2_Lab4.cpp.obj.d
+  FLAGS = -g -std=gnu++23 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\dhillon_Topic2_Lab4.dir
+  OBJECT_FILE_DIR = CMakeFiles\dhillon_Topic2_Lab4.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target dhillon_Topic2_Lab4
+
+
+#############################################
+# Link the executable bin\dhillon_Topic2_Lab4.exe
+
+build bin/dhillon_Topic2_Lab4.exe: CXX_EXECUTABLE_LINKER__dhillon_Topic2_Lab4_Debug CMakeFiles/dhillon_Topic2_Lab4.dir/dhillon_Topic2_Lab4.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\dhillon_Topic2_Lab4.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = bin\dhillon_Topic2_Lab4.exe
+  TARGET_IMPLIB = bin\libdhillon_Topic2_Lab4.dll.a
+  TARGET_PDB = dhillon_Topic2_Lab4.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target dhillon_Topic2_Lab5
+
+
+#############################################
+# Order-only phony target for dhillon_Topic2_Lab5
+
+build cmake_object_order_depends_target_dhillon_Topic2_Lab5: phony || .
+
+build CMakeFiles/dhillon_Topic2_Lab5.dir/dhillon_Topic2_Lab5.cpp.obj: CXX_COMPILER__dhillon_Topic2_Lab5_unscanned_Debug D$:/Git_repo/School/CSC120/dhillon_Topic2_Lab5.cpp || cmake_object_order_depends_target_dhillon_Topic2_Lab5
+  DEP_FILE = CMakeFiles\dhillon_Topic2_Lab5.dir\dhillon_Topic2_Lab5.cpp.obj.d
+  FLAGS = -g -std=gnu++23 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\dhillon_Topic2_Lab5.dir
+  OBJECT_FILE_DIR = CMakeFiles\dhillon_Topic2_Lab5.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target dhillon_Topic2_Lab5
+
+
+#############################################
+# Link the executable bin\dhillon_Topic2_Lab5.exe
+
+build bin/dhillon_Topic2_Lab5.exe: CXX_EXECUTABLE_LINKER__dhillon_Topic2_Lab5_Debug CMakeFiles/dhillon_Topic2_Lab5.dir/dhillon_Topic2_Lab5.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\dhillon_Topic2_Lab5.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = bin\dhillon_Topic2_Lab5.exe
+  TARGET_IMPLIB = bin\libdhillon_Topic2_Lab5.dll.a
+  TARGET_PDB = dhillon_Topic2_Lab5.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target dhillon_Topic3_Lab1
+
+
+#############################################
+# Order-only phony target for dhillon_Topic3_Lab1
+
+build cmake_object_order_depends_target_dhillon_Topic3_Lab1: phony || .
+
+build CMakeFiles/dhillon_Topic3_Lab1.dir/dhillon_Topic3_Lab1.cpp.obj: CXX_COMPILER__dhillon_Topic3_Lab1_unscanned_Debug D$:/Git_repo/School/CSC120/dhillon_Topic3_Lab1.cpp || cmake_object_order_depends_target_dhillon_Topic3_Lab1
+  DEP_FILE = CMakeFiles\dhillon_Topic3_Lab1.dir\dhillon_Topic3_Lab1.cpp.obj.d
+  FLAGS = -g -std=gnu++23 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\dhillon_Topic3_Lab1.dir
+  OBJECT_FILE_DIR = CMakeFiles\dhillon_Topic3_Lab1.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target dhillon_Topic3_Lab1
+
+
+#############################################
+# Link the executable bin\dhillon_Topic3_Lab1.exe
+
+build bin/dhillon_Topic3_Lab1.exe: CXX_EXECUTABLE_LINKER__dhillon_Topic3_Lab1_Debug CMakeFiles/dhillon_Topic3_Lab1.dir/dhillon_Topic3_Lab1.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\dhillon_Topic3_Lab1.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = bin\dhillon_Topic3_Lab1.exe
+  TARGET_IMPLIB = bin\libdhillon_Topic3_Lab1.dll.a
+  TARGET_PDB = dhillon_Topic3_Lab1.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target dhillon_Topic4_lab1
+
+
+#############################################
+# Order-only phony target for dhillon_Topic4_lab1
+
+build cmake_object_order_depends_target_dhillon_Topic4_lab1: phony || .
+
+build CMakeFiles/dhillon_Topic4_lab1.dir/dhillon_Topic4_lab1.cpp.obj: CXX_COMPILER__dhillon_Topic4_lab1_unscanned_Debug D$:/Git_repo/School/CSC120/dhillon_Topic4_lab1.cpp || cmake_object_order_depends_target_dhillon_Topic4_lab1
+  DEP_FILE = CMakeFiles\dhillon_Topic4_lab1.dir\dhillon_Topic4_lab1.cpp.obj.d
+  FLAGS = -g -std=gnu++23 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\dhillon_Topic4_lab1.dir
+  OBJECT_FILE_DIR = CMakeFiles\dhillon_Topic4_lab1.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target dhillon_Topic4_lab1
+
+
+#############################################
+# Link the executable bin\dhillon_Topic4_lab1.exe
+
+build bin/dhillon_Topic4_lab1.exe: CXX_EXECUTABLE_LINKER__dhillon_Topic4_lab1_Debug CMakeFiles/dhillon_Topic4_lab1.dir/dhillon_Topic4_lab1.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\dhillon_Topic4_lab1.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = bin\dhillon_Topic4_lab1.exe
+  TARGET_IMPLIB = bin\libdhillon_Topic4_lab1.dll.a
+  TARGET_PDB = dhillon_Topic4_lab1.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target dhillon_assessment1_ch1_2
+
+
+#############################################
+# Order-only phony target for dhillon_assessment1_ch1_2
+
+build cmake_object_order_depends_target_dhillon_assessment1_ch1_2: phony || .
+
+build CMakeFiles/dhillon_assessment1_ch1_2.dir/dhillon_assessment1_ch1_2.cpp.obj: CXX_COMPILER__dhillon_assessment1_ch1_2_unscanned_Debug D$:/Git_repo/School/CSC120/dhillon_assessment1_ch1_2.cpp || cmake_object_order_depends_target_dhillon_assessment1_ch1_2
+  DEP_FILE = CMakeFiles\dhillon_assessment1_ch1_2.dir\dhillon_assessment1_ch1_2.cpp.obj.d
+  FLAGS = -g -std=gnu++23 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\dhillon_assessment1_ch1_2.dir
+  OBJECT_FILE_DIR = CMakeFiles\dhillon_assessment1_ch1_2.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target dhillon_assessment1_ch1_2
+
+
+#############################################
+# Link the executable bin\dhillon_assessment1_ch1_2.exe
+
+build bin/dhillon_assessment1_ch1_2.exe: CXX_EXECUTABLE_LINKER__dhillon_assessment1_ch1_2_Debug CMakeFiles/dhillon_assessment1_ch1_2.dir/dhillon_assessment1_ch1_2.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\dhillon_assessment1_ch1_2.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = bin\dhillon_assessment1_ch1_2.exe
+  TARGET_IMPLIB = bin\libdhillon_assessment1_ch1_2.dll.a
+  TARGET_PDB = dhillon_assessment1_ch1_2.exe.dbg
 
 
 #############################################
@@ -190,7 +462,53 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Target aliases.
 
-build CSC120: phony CSC120.exe
+build Dhillon_Topic4_Lab2: phony bin/Dhillon_Topic4_Lab2.exe
+
+build Dhillon_Topic4_Lab2.exe: phony bin/Dhillon_Topic4_Lab2.exe
+
+build Dhillon_Topic4_Quiz: phony bin/Dhillon_Topic4_Quiz.exe
+
+build Dhillon_Topic4_Quiz.exe: phony bin/Dhillon_Topic4_Quiz.exe
+
+build Dhillon_Topic4_Reading_Assignment: phony bin/Dhillon_Topic4_Reading_Assignment.exe
+
+build Dhillon_Topic4_Reading_Assignment.exe: phony bin/Dhillon_Topic4_Reading_Assignment.exe
+
+build Dhillon_Topic5_lab1: phony bin/Dhillon_Topic5_lab1.exe
+
+build Dhillon_Topic5_lab1.exe: phony bin/Dhillon_Topic5_lab1.exe
+
+build dhillon_Topic2_HW: phony bin/dhillon_Topic2_HW.exe
+
+build dhillon_Topic2_HW.exe: phony bin/dhillon_Topic2_HW.exe
+
+build dhillon_Topic2_Lab1: phony bin/dhillon_Topic2_Lab1.exe
+
+build dhillon_Topic2_Lab1.exe: phony bin/dhillon_Topic2_Lab1.exe
+
+build dhillon_Topic2_Lab3: phony bin/dhillon_Topic2_Lab3.exe
+
+build dhillon_Topic2_Lab3.exe: phony bin/dhillon_Topic2_Lab3.exe
+
+build dhillon_Topic2_Lab4: phony bin/dhillon_Topic2_Lab4.exe
+
+build dhillon_Topic2_Lab4.exe: phony bin/dhillon_Topic2_Lab4.exe
+
+build dhillon_Topic2_Lab5: phony bin/dhillon_Topic2_Lab5.exe
+
+build dhillon_Topic2_Lab5.exe: phony bin/dhillon_Topic2_Lab5.exe
+
+build dhillon_Topic3_Lab1: phony bin/dhillon_Topic3_Lab1.exe
+
+build dhillon_Topic3_Lab1.exe: phony bin/dhillon_Topic3_Lab1.exe
+
+build dhillon_Topic4_lab1: phony bin/dhillon_Topic4_lab1.exe
+
+build dhillon_Topic4_lab1.exe: phony bin/dhillon_Topic4_lab1.exe
+
+build dhillon_assessment1_ch1_2: phony bin/dhillon_assessment1_ch1_2.exe
+
+build dhillon_assessment1_ch1_2.exe: phony bin/dhillon_assessment1_ch1_2.exe
 
 # =============================================================================
 # Folder targets.
@@ -200,7 +518,7 @@ build CSC120: phony CSC120.exe
 #############################################
 # Folder: D:/Git_repo/School/CSC120/cmake-build-debug
 
-build all: phony CSC120.exe
+build all: phony bin/Dhillon_Topic4_Lab2.exe bin/Dhillon_Topic4_Quiz.exe bin/Dhillon_Topic4_Reading_Assignment.exe bin/Dhillon_Topic5_lab1.exe bin/dhillon_Topic2_HW.exe bin/dhillon_Topic2_Lab1.exe bin/dhillon_Topic2_Lab3.exe bin/dhillon_Topic2_Lab4.exe bin/dhillon_Topic2_Lab5.exe bin/dhillon_Topic3_Lab1.exe bin/dhillon_Topic4_lab1.exe bin/dhillon_assessment1_ch1_2.exe
 
 # =============================================================================
 # Built-in targets
@@ -209,14 +527,14 @@ build all: phony CSC120.exe
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | C$:/Program$ Files/JetBrains/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCCompiler.cmake.in C$:/Program$ Files/JetBrains/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCCompilerABI.c C$:/Program$ Files/JetBrains/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCXXCompiler.cmake.in C$:/Program$ Files/JetBrains/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCXXCompilerABI.cpp C$:/Program$ Files/JetBrains/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCXXInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCommonLanguageInclude.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCompilerIdDetection.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeDetermineCCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeDetermineCXXCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeDetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeDetermineCompilerSupport.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeDetermineRCCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeDetermineSystem.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeFindBinUtils.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeGenericSystem.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeInitializeConfigs.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeLanguageInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeParseImplicitIncludeInfo.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeParseImplicitLinkInfo.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeParseLibraryArchitecture.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeRCCompiler.cmake.in C$:/Program$ Files/JetBrains/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeRCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeSystem.cmake.in C$:/Program$ Files/JetBrains/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeSystemSpecificInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeSystemSpecificInitialize.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeTestCCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeTestCXXCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeTestCompilerCommon.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeTestRCCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/ADSP-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/ARMCC-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/ARMClang-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/AppleClang-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/Borland-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/Bruce-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/Clang-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/Clang-DetermineCompilerInternal.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/Compaq-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/Cray-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/CrayClang-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/Embarcadero-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/Fujitsu-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/GHS-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/GNU-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/GNU-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/GNU-FindBinUtils.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/HP-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/HP-CXX-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/IAR-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/IBMClang-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/IBMClang-CXX-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/Intel-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/LCC-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/LCC-CXX-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/MSVC-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/NVHPC-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/NVIDIA-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/OrangeC-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/PGI-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/PathScale-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/SCO-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/SDCC-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/SunPro-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/SunPro-CXX-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/TI-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/TIClang-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/Tasking-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/TinyCC-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/VisualAge-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/Watcom-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/XL-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/XL-CXX-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/XLClang-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/XLClang-CXX-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/zOS-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Internal/CMakeDetermineLinkerId.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Internal/FeatureTesting.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-Determine-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU-CXX-ABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-Initialize.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-windres.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/WindowsPaths.cmake CMakeCache.txt CMakeFiles/3.30.5/CMakeCCompiler.cmake CMakeFiles/3.30.5/CMakeCXXCompiler.cmake CMakeFiles/3.30.5/CMakeRCCompiler.cmake CMakeFiles/3.30.5/CMakeSystem.cmake D$:/Git_repo/School/CSC120/CMakeLists.txt
+build build.ninja: RERUN_CMAKE | C$:/Program$ Files/JetBrains/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCXXInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCommonLanguageInclude.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeGenericSystem.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeInitializeConfigs.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeLanguageInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeRCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeSystemSpecificInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeSystemSpecificInitialize.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/GNU-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU-CXX-ABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-Initialize.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-windres.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/WindowsPaths.cmake CMakeCache.txt CMakeFiles/3.30.5/CMakeCCompiler.cmake CMakeFiles/3.30.5/CMakeCXXCompiler.cmake CMakeFiles/3.30.5/CMakeRCCompiler.cmake CMakeFiles/3.30.5/CMakeSystem.cmake D$:/Git_repo/School/CSC120/CMakeLists.txt
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build C$:/Program$ Files/JetBrains/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCCompiler.cmake.in C$:/Program$ Files/JetBrains/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCCompilerABI.c C$:/Program$ Files/JetBrains/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCXXCompiler.cmake.in C$:/Program$ Files/JetBrains/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCXXCompilerABI.cpp C$:/Program$ Files/JetBrains/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCXXInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCommonLanguageInclude.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCompilerIdDetection.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeDetermineCCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeDetermineCXXCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeDetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeDetermineCompilerSupport.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeDetermineRCCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeDetermineSystem.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeFindBinUtils.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeGenericSystem.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeInitializeConfigs.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeLanguageInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeParseImplicitIncludeInfo.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeParseImplicitLinkInfo.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeParseLibraryArchitecture.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeRCCompiler.cmake.in C$:/Program$ Files/JetBrains/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeRCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeSystem.cmake.in C$:/Program$ Files/JetBrains/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeSystemSpecificInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeSystemSpecificInitialize.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeTestCCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeTestCXXCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeTestCompilerCommon.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeTestRCCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/ADSP-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/ARMCC-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/ARMClang-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/AppleClang-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/Borland-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/Bruce-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/Clang-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/Clang-DetermineCompilerInternal.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/Compaq-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/Cray-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/CrayClang-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/Embarcadero-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/Fujitsu-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/GHS-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/GNU-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/GNU-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/GNU-FindBinUtils.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/HP-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/HP-CXX-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/IAR-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/IBMClang-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/IBMClang-CXX-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/Intel-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/LCC-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/LCC-CXX-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/MSVC-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/NVHPC-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/NVIDIA-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/OrangeC-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/PGI-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/PathScale-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/SCO-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/SDCC-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/SunPro-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/SunPro-CXX-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/TI-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/TIClang-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/Tasking-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/TinyCC-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/VisualAge-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/Watcom-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/XL-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/XL-CXX-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/XLClang-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/XLClang-CXX-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/zOS-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Internal/CMakeDetermineLinkerId.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Internal/FeatureTesting.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-Determine-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU-CXX-ABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-Initialize.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-windres.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/WindowsPaths.cmake CMakeCache.txt CMakeFiles/3.30.5/CMakeCCompiler.cmake CMakeFiles/3.30.5/CMakeCXXCompiler.cmake CMakeFiles/3.30.5/CMakeRCCompiler.cmake CMakeFiles/3.30.5/CMakeSystem.cmake D$:/Git_repo/School/CSC120/CMakeLists.txt: phony
+build C$:/Program$ Files/JetBrains/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCXXInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCommonLanguageInclude.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeGenericSystem.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeInitializeConfigs.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeLanguageInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeRCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeSystemSpecificInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeSystemSpecificInitialize.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/GNU-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU-CXX-ABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-Initialize.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-windres.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/WindowsPaths.cmake CMakeCache.txt CMakeFiles/3.30.5/CMakeCCompiler.cmake CMakeFiles/3.30.5/CMakeCXXCompiler.cmake CMakeFiles/3.30.5/CMakeRCCompiler.cmake CMakeFiles/3.30.5/CMakeSystem.cmake D$:/Git_repo/School/CSC120/CMakeLists.txt: phony
 
 
 #############################################
