@@ -1,0 +1,7 @@
+cmake_minimum_required(VERSION 3.30)
+project(CSC120)
+
+set(CMAKE_CXX_STANDARD 26)
+
+add_executable(Dhillon_Topic4_Quiz Dhillon_Topic4_Quiz.cpp)
+add_executable(Dhillon_Topic4_Reading_Assignment Dhillon_Topic4_Reading_Assignment.cpp)
