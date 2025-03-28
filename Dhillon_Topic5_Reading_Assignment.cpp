@@ -39,16 +39,16 @@ int main() {
 
   // Prompted user for the number of books bought by each student.
   do {
-    cout << "PLease enter the number of books bought by the student: ";
+    cout << "Please enter the number of books bought by the student: ";
     cin >> numBooks;
 
-    // Checked for invalid input. used cin.fail() to check if the input is a
+    // Checked for invalid input. Used cin.fail() to check if the input is a
     // number. If the input is not a number, it will clear the error and ignore
-    // the invalid input.
-    while (cin.fail()) {
+    // the invalid input. Used cin.peek() to give error if the input is float value.
+    while (cin.fail()|| cin.peek() != '\n') {
       cin.clear();
       //This prevents infinite loops if a string value or a value too large
-      // for int datatype is entered in the cin.
+      //for int datatype is entered in the cin.
       cin.ignore(numeric_limits<streamsize>::max(), '\n');
       cout << "Invalid input!! \nPlease enter a number between " << MINBOOKS
            << " and " << MAXBOOKS << ": ";
@@ -62,7 +62,7 @@ int main() {
       cin >> numBooks;
       // Checked for invalid input. used cin.fail() to check if the input is a
       // number.
-      while (cin.fail()) {
+      while (cin.fail()|| cin.peek() != '\n') {
         cin.clear();
         cin.ignore(numeric_limits<streamsize>::max(), '\n');
         cout << "Invalid input!! \nPlease enter a number between " << MINBOOKS
