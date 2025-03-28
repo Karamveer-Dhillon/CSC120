@@ -6,7 +6,6 @@ Description: This program calculates the total number of students and number of
 books bought by the students. The program will also calculate the average number
 of books bought by each student.
 */
-#include <iostream>
 #include <iomanip>
 #include <iostream>
 // included limits to check for invalid input
@@ -32,8 +31,11 @@ int main() {
           "The program will also calculate the average number of books bought "
           "by each student.\n\n";
   cout << "Users have to enter the number of books bought by each student.\n"
-          "Only numbers between "<< MINBOOKS << " and " << MAXBOOKS << " are valid.\n"
-          "The program will stop when the user enters " << EXITCODE <<".\n\n";
+          "Only numbers between "
+       << MINBOOKS << " and " << MAXBOOKS
+       << " are valid.\n"
+          "The program will stop when the user enters "
+       << EXITCODE << ".\n\n";
 
   // Prompted user for the number of books bought by each student.
   do {
@@ -56,8 +58,9 @@ int main() {
       cout << "Invalid input!! \nPlease enter a number between " << MINBOOKS
            << " and " << MAXBOOKS << ": ";
       cin >> numBooks;
-      // Checked for invalid input. used cin.fail() to check if the input is a number.
-      while (cin.fail()){
+      // Checked for invalid input. used cin.fail() to check if the input is a
+      // number.
+      while (cin.fail()) {
         cin.clear();
         cin.ignore(numeric_limits<streamsize>::max(), '\n');
         cout << "Invalid input!! \nPlease enter a number between " << MINBOOKS
@@ -79,8 +82,7 @@ int main() {
   if (numStudents == 0) {
     cout << "No students entered. Exiting the program." << endl;
     return 1;
-  }
-  else{
+  } else {
     // Calculated the average number of books bought by each student.
     const double average = totalBooks / numStudents;
 
@@ -88,9 +90,11 @@ int main() {
     // all students, and the average number of books bought by each student.
     cout << "\nSales Report\n";
     cout << "The total number of students is " << numStudents << ".\n";
-    cout << "The total number of books bought by all students is " << totalBooks << ".\n";
-    cout << "The average of total numbers is " << fixed << setprecision(2) << average<<"." << endl;
-    }
+    cout << "The total number of books bought by all students is " << totalBooks
+         << ".\n";
+    cout << "The average of total numbers is " << fixed << setprecision(2)
+         << average << "." << endl;
+  }
 
   // returned 0 to indicate successful completion of the program.
   return 0;
