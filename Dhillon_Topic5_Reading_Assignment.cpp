@@ -47,14 +47,16 @@ int main() {
     // the invalid input.
     while (cin.fail()) {
       cin.clear();
+      //This prevents infinite loops if a string value or a value too large
+      // for int datatype is entered in the cin.
       cin.ignore(numeric_limits<streamsize>::max(), '\n');
       cout << "Invalid input!! \nPlease enter a number between " << MINBOOKS
            << " and " << MAXBOOKS << ": ";
       cin >> numBooks;
     }
     // Checked if the input is between the minimum and maximum number of books.
-    while ((numBooks < MINBOOKS || numBooks > MAXBOOKS) &&
-           numBooks != EXITCODE) {
+    while (((numBooks < MINBOOKS) || (numBooks > MAXBOOKS)) &&
+           (numBooks != EXITCODE)) {
       cout << "Invalid input!! \nPlease enter a number between " << MINBOOKS
            << " and " << MAXBOOKS << ": ";
       cin >> numBooks;
@@ -92,6 +94,7 @@ int main() {
     cout << "The total number of students is " << numStudents << ".\n";
     cout << "The total number of books bought by all students is " << totalBooks
          << ".\n";
+         //used setprecision to round the average to 2 decimal points.
     cout << "The average of total numbers is " << fixed << setprecision(2)
          << average << "." << endl;
   }
