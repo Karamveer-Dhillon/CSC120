@@ -53,10 +53,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/karamveerdhillon/CLionProjects/CSC120
+CMAKE_SOURCE_DIR = /Users/karamveerdhillon/CSC120
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/karamveerdhillon/CLionProjects/CSC120/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/karamveerdhillon/CSC120/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/dhillon_assessment1_ch1_2.dir/depend.make
@@ -70,18 +70,18 @@ include CMakeFiles/dhillon_assessment1_ch1_2.dir/progress.make
 include CMakeFiles/dhillon_assessment1_ch1_2.dir/flags.make
 
 CMakeFiles/dhillon_assessment1_ch1_2.dir/dhillon_assessment1_ch1_2.cpp.o: CMakeFiles/dhillon_assessment1_ch1_2.dir/flags.make
-CMakeFiles/dhillon_assessment1_ch1_2.dir/dhillon_assessment1_ch1_2.cpp.o: /Users/karamveerdhillon/CLionProjects/CSC120/dhillon_assessment1_ch1_2.cpp
+CMakeFiles/dhillon_assessment1_ch1_2.dir/dhillon_assessment1_ch1_2.cpp.o: /Users/karamveerdhillon/CSC120/dhillon_assessment1_ch1_2.cpp
 CMakeFiles/dhillon_assessment1_ch1_2.dir/dhillon_assessment1_ch1_2.cpp.o: CMakeFiles/dhillon_assessment1_ch1_2.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/karamveerdhillon/CLionProjects/CSC120/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/dhillon_assessment1_ch1_2.dir/dhillon_assessment1_ch1_2.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/dhillon_assessment1_ch1_2.dir/dhillon_assessment1_ch1_2.cpp.o -MF CMakeFiles/dhillon_assessment1_ch1_2.dir/dhillon_assessment1_ch1_2.cpp.o.d -o CMakeFiles/dhillon_assessment1_ch1_2.dir/dhillon_assessment1_ch1_2.cpp.o -c /Users/karamveerdhillon/CLionProjects/CSC120/dhillon_assessment1_ch1_2.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/karamveerdhillon/CSC120/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/dhillon_assessment1_ch1_2.dir/dhillon_assessment1_ch1_2.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/dhillon_assessment1_ch1_2.dir/dhillon_assessment1_ch1_2.cpp.o -MF CMakeFiles/dhillon_assessment1_ch1_2.dir/dhillon_assessment1_ch1_2.cpp.o.d -o CMakeFiles/dhillon_assessment1_ch1_2.dir/dhillon_assessment1_ch1_2.cpp.o -c /Users/karamveerdhillon/CSC120/dhillon_assessment1_ch1_2.cpp
 
 CMakeFiles/dhillon_assessment1_ch1_2.dir/dhillon_assessment1_ch1_2.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/dhillon_assessment1_ch1_2.dir/dhillon_assessment1_ch1_2.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/karamveerdhillon/CLionProjects/CSC120/dhillon_assessment1_ch1_2.cpp > CMakeFiles/dhillon_assessment1_ch1_2.dir/dhillon_assessment1_ch1_2.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/karamveerdhillon/CSC120/dhillon_assessment1_ch1_2.cpp > CMakeFiles/dhillon_assessment1_ch1_2.dir/dhillon_assessment1_ch1_2.cpp.i
 
 CMakeFiles/dhillon_assessment1_ch1_2.dir/dhillon_assessment1_ch1_2.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/dhillon_assessment1_ch1_2.dir/dhillon_assessment1_ch1_2.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/karamveerdhillon/CLionProjects/CSC120/dhillon_assessment1_ch1_2.cpp -o CMakeFiles/dhillon_assessment1_ch1_2.dir/dhillon_assessment1_ch1_2.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/karamveerdhillon/CSC120/dhillon_assessment1_ch1_2.cpp -o CMakeFiles/dhillon_assessment1_ch1_2.dir/dhillon_assessment1_ch1_2.cpp.s
 
 # Object files for target dhillon_assessment1_ch1_2
 dhillon_assessment1_ch1_2_OBJECTS = \
@@ -93,7 +93,7 @@ dhillon_assessment1_ch1_2_EXTERNAL_OBJECTS =
 bin/dhillon_assessment1_ch1_2: CMakeFiles/dhillon_assessment1_ch1_2.dir/dhillon_assessment1_ch1_2.cpp.o
 bin/dhillon_assessment1_ch1_2: CMakeFiles/dhillon_assessment1_ch1_2.dir/build.make
 bin/dhillon_assessment1_ch1_2: CMakeFiles/dhillon_assessment1_ch1_2.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/karamveerdhillon/CLionProjects/CSC120/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable bin/dhillon_assessment1_ch1_2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/karamveerdhillon/CSC120/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable bin/dhillon_assessment1_ch1_2"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/dhillon_assessment1_ch1_2.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -105,6 +105,6 @@ CMakeFiles/dhillon_assessment1_ch1_2.dir/clean:
 .PHONY : CMakeFiles/dhillon_assessment1_ch1_2.dir/clean
 
 CMakeFiles/dhillon_assessment1_ch1_2.dir/depend:
-	cd /Users/karamveerdhillon/CLionProjects/CSC120/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/karamveerdhillon/CLionProjects/CSC120 /Users/karamveerdhillon/CLionProjects/CSC120 /Users/karamveerdhillon/CLionProjects/CSC120/cmake-build-debug /Users/karamveerdhillon/CLionProjects/CSC120/cmake-build-debug /Users/karamveerdhillon/CLionProjects/CSC120/cmake-build-debug/CMakeFiles/dhillon_assessment1_ch1_2.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /Users/karamveerdhillon/CSC120/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/karamveerdhillon/CSC120 /Users/karamveerdhillon/CSC120 /Users/karamveerdhillon/CSC120/cmake-build-debug /Users/karamveerdhillon/CSC120/cmake-build-debug /Users/karamveerdhillon/CSC120/cmake-build-debug/CMakeFiles/dhillon_assessment1_ch1_2.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/dhillon_assessment1_ch1_2.dir/depend
 

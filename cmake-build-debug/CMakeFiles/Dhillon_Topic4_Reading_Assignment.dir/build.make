@@ -53,10 +53,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/karamveerdhillon/CLionProjects/CSC120
+CMAKE_SOURCE_DIR = /Users/karamveerdhillon/CSC120
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/karamveerdhillon/CLionProjects/CSC120/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/karamveerdhillon/CSC120/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/Dhillon_Topic4_Reading_Assignment.dir/depend.make
@@ -70,18 +70,18 @@ include CMakeFiles/Dhillon_Topic4_Reading_Assignment.dir/progress.make
 include CMakeFiles/Dhillon_Topic4_Reading_Assignment.dir/flags.make
 
 CMakeFiles/Dhillon_Topic4_Reading_Assignment.dir/Dhillon_Topic4_Reading_Assignment.cpp.o: CMakeFiles/Dhillon_Topic4_Reading_Assignment.dir/flags.make
-CMakeFiles/Dhillon_Topic4_Reading_Assignment.dir/Dhillon_Topic4_Reading_Assignment.cpp.o: /Users/karamveerdhillon/CLionProjects/CSC120/Dhillon_Topic4_Reading_Assignment.cpp
+CMakeFiles/Dhillon_Topic4_Reading_Assignment.dir/Dhillon_Topic4_Reading_Assignment.cpp.o: /Users/karamveerdhillon/CSC120/Dhillon_Topic4_Reading_Assignment.cpp
 CMakeFiles/Dhillon_Topic4_Reading_Assignment.dir/Dhillon_Topic4_Reading_Assignment.cpp.o: CMakeFiles/Dhillon_Topic4_Reading_Assignment.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/karamveerdhillon/CLionProjects/CSC120/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Dhillon_Topic4_Reading_Assignment.dir/Dhillon_Topic4_Reading_Assignment.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Dhillon_Topic4_Reading_Assignment.dir/Dhillon_Topic4_Reading_Assignment.cpp.o -MF CMakeFiles/Dhillon_Topic4_Reading_Assignment.dir/Dhillon_Topic4_Reading_Assignment.cpp.o.d -o CMakeFiles/Dhillon_Topic4_Reading_Assignment.dir/Dhillon_Topic4_Reading_Assignment.cpp.o -c /Users/karamveerdhillon/CLionProjects/CSC120/Dhillon_Topic4_Reading_Assignment.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/karamveerdhillon/CSC120/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Dhillon_Topic4_Reading_Assignment.dir/Dhillon_Topic4_Reading_Assignment.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Dhillon_Topic4_Reading_Assignment.dir/Dhillon_Topic4_Reading_Assignment.cpp.o -MF CMakeFiles/Dhillon_Topic4_Reading_Assignment.dir/Dhillon_Topic4_Reading_Assignment.cpp.o.d -o CMakeFiles/Dhillon_Topic4_Reading_Assignment.dir/Dhillon_Topic4_Reading_Assignment.cpp.o -c /Users/karamveerdhillon/CSC120/Dhillon_Topic4_Reading_Assignment.cpp
 
 CMakeFiles/Dhillon_Topic4_Reading_Assignment.dir/Dhillon_Topic4_Reading_Assignment.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Dhillon_Topic4_Reading_Assignment.dir/Dhillon_Topic4_Reading_Assignment.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/karamveerdhillon/CLionProjects/CSC120/Dhillon_Topic4_Reading_Assignment.cpp > CMakeFiles/Dhillon_Topic4_Reading_Assignment.dir/Dhillon_Topic4_Reading_Assignment.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/karamveerdhillon/CSC120/Dhillon_Topic4_Reading_Assignment.cpp > CMakeFiles/Dhillon_Topic4_Reading_Assignment.dir/Dhillon_Topic4_Reading_Assignment.cpp.i
 
 CMakeFiles/Dhillon_Topic4_Reading_Assignment.dir/Dhillon_Topic4_Reading_Assignment.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Dhillon_Topic4_Reading_Assignment.dir/Dhillon_Topic4_Reading_Assignment.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/karamveerdhillon/CLionProjects/CSC120/Dhillon_Topic4_Reading_Assignment.cpp -o CMakeFiles/Dhillon_Topic4_Reading_Assignment.dir/Dhillon_Topic4_Reading_Assignment.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/karamveerdhillon/CSC120/Dhillon_Topic4_Reading_Assignment.cpp -o CMakeFiles/Dhillon_Topic4_Reading_Assignment.dir/Dhillon_Topic4_Reading_Assignment.cpp.s
 
 # Object files for target Dhillon_Topic4_Reading_Assignment
 Dhillon_Topic4_Reading_Assignment_OBJECTS = \
@@ -93,7 +93,7 @@ Dhillon_Topic4_Reading_Assignment_EXTERNAL_OBJECTS =
 bin/Dhillon_Topic4_Reading_Assignment: CMakeFiles/Dhillon_Topic4_Reading_Assignment.dir/Dhillon_Topic4_Reading_Assignment.cpp.o
 bin/Dhillon_Topic4_Reading_Assignment: CMakeFiles/Dhillon_Topic4_Reading_Assignment.dir/build.make
 bin/Dhillon_Topic4_Reading_Assignment: CMakeFiles/Dhillon_Topic4_Reading_Assignment.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/karamveerdhillon/CLionProjects/CSC120/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable bin/Dhillon_Topic4_Reading_Assignment"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/karamveerdhillon/CSC120/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable bin/Dhillon_Topic4_Reading_Assignment"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Dhillon_Topic4_Reading_Assignment.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -105,6 +105,6 @@ CMakeFiles/Dhillon_Topic4_Reading_Assignment.dir/clean:
 .PHONY : CMakeFiles/Dhillon_Topic4_Reading_Assignment.dir/clean
 
 CMakeFiles/Dhillon_Topic4_Reading_Assignment.dir/depend:
-	cd /Users/karamveerdhillon/CLionProjects/CSC120/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/karamveerdhillon/CLionProjects/CSC120 /Users/karamveerdhillon/CLionProjects/CSC120 /Users/karamveerdhillon/CLionProjects/CSC120/cmake-build-debug /Users/karamveerdhillon/CLionProjects/CSC120/cmake-build-debug /Users/karamveerdhillon/CLionProjects/CSC120/cmake-build-debug/CMakeFiles/Dhillon_Topic4_Reading_Assignment.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /Users/karamveerdhillon/CSC120/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/karamveerdhillon/CSC120 /Users/karamveerdhillon/CSC120 /Users/karamveerdhillon/CSC120/cmake-build-debug /Users/karamveerdhillon/CSC120/cmake-build-debug /Users/karamveerdhillon/CSC120/cmake-build-debug/CMakeFiles/Dhillon_Topic4_Reading_Assignment.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/Dhillon_Topic4_Reading_Assignment.dir/depend
 

@@ -9,7 +9,7 @@ and then calculates the difference between the two by subtracting yesterday's co
 // imports string library to use strings functions.
 #include <string>
 // using namespace std to avoid writing std:: everytime.
-using namespace std;	
+using namespace std;
 
 int main() {
 	// declaring a variable with double datatype to store the price of share today.
@@ -20,8 +20,8 @@ int main() {
 	int numShares = 18;
 	// declaring a constant variable with double datatype to store the commission rate.
 	// const keyword is used to make the variable constant therefore it's value cannot be changed.
-	constexpr double COMMISSION = 2.;
-									
+	const double COMMISSION = 2.;
+
 
     // declaring a variable with double datatype to store the cost of stock.
 	double stockCost;
@@ -40,7 +40,7 @@ int main() {
 	// calculating the commission cost by multiplying the stock cost with the commission percentage.
 	commissionCost = stockCost * COMMISSION / 100.;
 	// calculating the total cost today by adding the stock cost and the commission cost.
-	totalCostToday = stockCost + commissionCost; 
+	totalCostToday = stockCost + commissionCost;
 
 	// printing the number of shares,the string " shares of ", stock name,the string " at $", share price, the string " per share" to the console.
 	cout << numShares << " shares of " << stockName << " at $" << sharePrice << " per share." << endl;

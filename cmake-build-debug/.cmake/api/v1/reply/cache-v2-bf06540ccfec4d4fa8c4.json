@@ -55,7 +55,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/Users/karamveerdhillon/CLionProjects/CSC120/cmake-build-debug"
+			"value" : "/Users/karamveerdhillon/CSC120/cmake-build-debug"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -479,7 +479,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/Users/karamveerdhillon/CLionProjects/CSC120/cmake-build-debug/CMakeFiles/pkgRedirects"
+			"value" : "/Users/karamveerdhillon/CSC120/cmake-build-debug/CMakeFiles/pkgRedirects"
 		},
 		{
 			"name" : "CMAKE_GENERATOR",
@@ -539,7 +539,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/Users/karamveerdhillon/CLionProjects/CSC120"
+			"value" : "/Users/karamveerdhillon/CSC120"
 		},
 		{
 			"name" : "CMAKE_INSTALL_NAME_TOOL",
@@ -1131,7 +1131,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/Users/karamveerdhillon/CLionProjects/CSC120/cmake-build-debug"
+			"value" : "/Users/karamveerdhillon/CSC120/cmake-build-debug"
 		},
 		{
 			"name" : "CSC120_IS_TOP_LEVEL",
@@ -1155,7 +1155,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/Users/karamveerdhillon/CLionProjects/CSC120"
+			"value" : "/Users/karamveerdhillon/CSC120"
 		}
 	],
 	"kind" : "cache",
