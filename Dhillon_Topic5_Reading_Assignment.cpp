@@ -34,17 +34,17 @@ int main() {
     while (cin.fail()){
       cin.clear();
       cin.ignore(numeric_limits<streamsize>::max(), '\n');
-      cout << "Invalid input!! Please enter a number between" << MINBOOKS << " and " << MAXBOOKS << ": ";
+      cout << "Invalid input!! \nPlease enter a number between " << MINBOOKS << " and " << MAXBOOKS << ": ";
       cin >> numBooks;
     }
     while ((numBooks < MINBOOKS || numBooks > MAXBOOKS) && numBooks != EXITCODE) {
-      cout << "Invalid input!! Please enter a number between" << MINBOOKS << " and " << MAXBOOKS << ": ";
+      cout << "Invalid input!! \nPlease enter a number between " << MINBOOKS << " and " << MAXBOOKS << ": ";
       cin >> numBooks;
       while (cin.fail()){
 
         cin.clear();
         cin.ignore(numeric_limits<streamsize>::max(), '\n');
-        cout << "Invalid input!! Please enter a number between" << MINBOOKS << " and " << MAXBOOKS << ": ";
+        cout << "Invalid input!! \nPlease enter a number between " << MINBOOKS << " and " << MAXBOOKS << ": ";
         cin >> numBooks;
       }
     }
