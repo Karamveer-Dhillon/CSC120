@@ -98,7 +98,6 @@ int main() {
     cout << "The average of total numbers is " << fixed << setprecision(2)
          << average << "." << endl;
   }
-
   // returned 0 to indicate successful completion of the program.
   return 0;
 }
