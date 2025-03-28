@@ -8,7 +8,7 @@ of books bought by each student.
 */
 #include <iomanip>
 #include <iostream>
-// included limits to check for invalid input
+//included limits library to check for invalid input using cin.ignore.
 #include <limits>
 
 using namespace std;
