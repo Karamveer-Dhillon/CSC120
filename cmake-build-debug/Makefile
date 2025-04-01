@@ -156,6 +156,19 @@ Dhillon_Topic4_Reading_Assignment/fast:
 .PHONY : Dhillon_Topic4_Reading_Assignment/fast
 
 #=============================================================================
+# Target rules for targets named Dhillon_Topic5_Lab1_Groccery
+
+# Build rule for target.
+Dhillon_Topic5_Lab1_Groccery: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Dhillon_Topic5_Lab1_Groccery
+.PHONY : Dhillon_Topic5_Lab1_Groccery
+
+# fast build rule for target.
+Dhillon_Topic5_Lab1_Groccery/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Dhillon_Topic5_Lab1_Groccery.dir/build.make CMakeFiles/Dhillon_Topic5_Lab1_Groccery.dir/build
+.PHONY : Dhillon_Topic5_Lab1_Groccery/fast
+
+#=============================================================================
 # Target rules for targets named Dhillon_Topic5_Reading_Assignment
 
 # Build rule for target.
@@ -180,6 +193,19 @@ Dhillon_Topic5_lab1: cmake_check_build_system
 Dhillon_Topic5_lab1/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Dhillon_Topic5_lab1.dir/build.make CMakeFiles/Dhillon_Topic5_lab1.dir/build
 .PHONY : Dhillon_Topic5_lab1/fast
+
+#=============================================================================
+# Target rules for targets named bug_Assignment
+
+# Build rule for target.
+bug_Assignment: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 bug_Assignment
+.PHONY : bug_Assignment
+
+# fast build rule for target.
+bug_Assignment/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bug_Assignment.dir/build.make CMakeFiles/bug_Assignment.dir/build
+.PHONY : bug_Assignment/fast
 
 #=============================================================================
 # Target rules for targets named dhillon_Topic2_HW
@@ -357,6 +383,30 @@ Dhillon_Topic4_Reading_Assignment.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Dhillon_Topic4_Reading_Assignment.dir/build.make CMakeFiles/Dhillon_Topic4_Reading_Assignment.dir/Dhillon_Topic4_Reading_Assignment.cpp.s
 .PHONY : Dhillon_Topic4_Reading_Assignment.cpp.s
 
+Dhillon_Topic5_Lab1_Groccery.o: Dhillon_Topic5_Lab1_Groccery.cpp.o
+.PHONY : Dhillon_Topic5_Lab1_Groccery.o
+
+# target to build an object file
+Dhillon_Topic5_Lab1_Groccery.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Dhillon_Topic5_Lab1_Groccery.dir/build.make CMakeFiles/Dhillon_Topic5_Lab1_Groccery.dir/Dhillon_Topic5_Lab1_Groccery.cpp.o
+.PHONY : Dhillon_Topic5_Lab1_Groccery.cpp.o
+
+Dhillon_Topic5_Lab1_Groccery.i: Dhillon_Topic5_Lab1_Groccery.cpp.i
+.PHONY : Dhillon_Topic5_Lab1_Groccery.i
+
+# target to preprocess a source file
+Dhillon_Topic5_Lab1_Groccery.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Dhillon_Topic5_Lab1_Groccery.dir/build.make CMakeFiles/Dhillon_Topic5_Lab1_Groccery.dir/Dhillon_Topic5_Lab1_Groccery.cpp.i
+.PHONY : Dhillon_Topic5_Lab1_Groccery.cpp.i
+
+Dhillon_Topic5_Lab1_Groccery.s: Dhillon_Topic5_Lab1_Groccery.cpp.s
+.PHONY : Dhillon_Topic5_Lab1_Groccery.s
+
+# target to generate assembly for a file
+Dhillon_Topic5_Lab1_Groccery.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Dhillon_Topic5_Lab1_Groccery.dir/build.make CMakeFiles/Dhillon_Topic5_Lab1_Groccery.dir/Dhillon_Topic5_Lab1_Groccery.cpp.s
+.PHONY : Dhillon_Topic5_Lab1_Groccery.cpp.s
+
 Dhillon_Topic5_Reading_Assignment.o: Dhillon_Topic5_Reading_Assignment.cpp.o
 .PHONY : Dhillon_Topic5_Reading_Assignment.o
 
@@ -404,6 +454,30 @@ Dhillon_Topic5_lab1.s: Dhillon_Topic5_lab1.cpp.s
 Dhillon_Topic5_lab1.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Dhillon_Topic5_lab1.dir/build.make CMakeFiles/Dhillon_Topic5_lab1.dir/Dhillon_Topic5_lab1.cpp.s
 .PHONY : Dhillon_Topic5_lab1.cpp.s
+
+bug_Assignment.o: bug_Assignment.cpp.o
+.PHONY : bug_Assignment.o
+
+# target to build an object file
+bug_Assignment.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bug_Assignment.dir/build.make CMakeFiles/bug_Assignment.dir/bug_Assignment.cpp.o
+.PHONY : bug_Assignment.cpp.o
+
+bug_Assignment.i: bug_Assignment.cpp.i
+.PHONY : bug_Assignment.i
+
+# target to preprocess a source file
+bug_Assignment.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bug_Assignment.dir/build.make CMakeFiles/bug_Assignment.dir/bug_Assignment.cpp.i
+.PHONY : bug_Assignment.cpp.i
+
+bug_Assignment.s: bug_Assignment.cpp.s
+.PHONY : bug_Assignment.s
+
+# target to generate assembly for a file
+bug_Assignment.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bug_Assignment.dir/build.make CMakeFiles/bug_Assignment.dir/bug_Assignment.cpp.s
+.PHONY : bug_Assignment.cpp.s
 
 dhillon_Topic2_HW.o: dhillon_Topic2_HW.cpp.o
 .PHONY : dhillon_Topic2_HW.o
@@ -608,8 +682,10 @@ help:
 	@echo "... Dhillon_Topic4_Lab2"
 	@echo "... Dhillon_Topic4_Quiz"
 	@echo "... Dhillon_Topic4_Reading_Assignment"
+	@echo "... Dhillon_Topic5_Lab1_Groccery"
 	@echo "... Dhillon_Topic5_Reading_Assignment"
 	@echo "... Dhillon_Topic5_lab1"
+	@echo "... bug_Assignment"
 	@echo "... dhillon_Topic2_HW"
 	@echo "... dhillon_Topic2_Lab1"
 	@echo "... dhillon_Topic2_Lab3"
@@ -627,12 +703,18 @@ help:
 	@echo "... Dhillon_Topic4_Reading_Assignment.o"
 	@echo "... Dhillon_Topic4_Reading_Assignment.i"
 	@echo "... Dhillon_Topic4_Reading_Assignment.s"
+	@echo "... Dhillon_Topic5_Lab1_Groccery.o"
+	@echo "... Dhillon_Topic5_Lab1_Groccery.i"
+	@echo "... Dhillon_Topic5_Lab1_Groccery.s"
 	@echo "... Dhillon_Topic5_Reading_Assignment.o"
 	@echo "... Dhillon_Topic5_Reading_Assignment.i"
 	@echo "... Dhillon_Topic5_Reading_Assignment.s"
 	@echo "... Dhillon_Topic5_lab1.o"
 	@echo "... Dhillon_Topic5_lab1.i"
 	@echo "... Dhillon_Topic5_lab1.s"
+	@echo "... bug_Assignment.o"
+	@echo "... bug_Assignment.i"
+	@echo "... bug_Assignment.s"
 	@echo "... dhillon_Topic2_HW.o"
 	@echo "... dhillon_Topic2_HW.i"
 	@echo "... dhillon_Topic2_HW.s"

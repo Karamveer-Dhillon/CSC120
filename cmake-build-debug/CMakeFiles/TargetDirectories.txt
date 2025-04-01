@@ -1,8 +1,10 @@
 /Users/karamveerdhillon/CSC120/cmake-build-debug/CMakeFiles/Dhillon_Topic4_Lab2.dir
 /Users/karamveerdhillon/CSC120/cmake-build-debug/CMakeFiles/Dhillon_Topic4_Quiz.dir
 /Users/karamveerdhillon/CSC120/cmake-build-debug/CMakeFiles/Dhillon_Topic4_Reading_Assignment.dir
+/Users/karamveerdhillon/CSC120/cmake-build-debug/CMakeFiles/Dhillon_Topic5_Lab1_Groccery.dir
 /Users/karamveerdhillon/CSC120/cmake-build-debug/CMakeFiles/Dhillon_Topic5_Reading_Assignment.dir
 /Users/karamveerdhillon/CSC120/cmake-build-debug/CMakeFiles/Dhillon_Topic5_lab1.dir
+/Users/karamveerdhillon/CSC120/cmake-build-debug/CMakeFiles/bug_Assignment.dir
 /Users/karamveerdhillon/CSC120/cmake-build-debug/CMakeFiles/dhillon_Topic2_HW.dir
 /Users/karamveerdhillon/CSC120/cmake-build-debug/CMakeFiles/dhillon_Topic2_Lab1.dir
 /Users/karamveerdhillon/CSC120/cmake-build-debug/CMakeFiles/dhillon_Topic2_Lab3.dir

@@ -66,8 +66,10 @@ CMAKE_BINARY_DIR = /Users/karamveerdhillon/CSC120/cmake-build-debug
 all: CMakeFiles/Dhillon_Topic4_Lab2.dir/all
 all: CMakeFiles/Dhillon_Topic4_Quiz.dir/all
 all: CMakeFiles/Dhillon_Topic4_Reading_Assignment.dir/all
+all: CMakeFiles/Dhillon_Topic5_Lab1_Groccery.dir/all
 all: CMakeFiles/Dhillon_Topic5_Reading_Assignment.dir/all
 all: CMakeFiles/Dhillon_Topic5_lab1.dir/all
+all: CMakeFiles/bug_Assignment.dir/all
 all: CMakeFiles/dhillon_Topic2_HW.dir/all
 all: CMakeFiles/dhillon_Topic2_Lab1.dir/all
 all: CMakeFiles/dhillon_Topic2_Lab3.dir/all
@@ -86,8 +88,10 @@ preinstall:
 clean: CMakeFiles/Dhillon_Topic4_Lab2.dir/clean
 clean: CMakeFiles/Dhillon_Topic4_Quiz.dir/clean
 clean: CMakeFiles/Dhillon_Topic4_Reading_Assignment.dir/clean
+clean: CMakeFiles/Dhillon_Topic5_Lab1_Groccery.dir/clean
 clean: CMakeFiles/Dhillon_Topic5_Reading_Assignment.dir/clean
 clean: CMakeFiles/Dhillon_Topic5_lab1.dir/clean
+clean: CMakeFiles/bug_Assignment.dir/clean
 clean: CMakeFiles/dhillon_Topic2_HW.dir/clean
 clean: CMakeFiles/dhillon_Topic2_Lab1.dir/clean
 clean: CMakeFiles/dhillon_Topic2_Lab3.dir/clean
@@ -177,13 +181,39 @@ CMakeFiles/Dhillon_Topic4_Reading_Assignment.dir/clean:
 .PHONY : CMakeFiles/Dhillon_Topic4_Reading_Assignment.dir/clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/Dhillon_Topic5_Lab1_Groccery.dir
+
+# All Build rule for target.
+CMakeFiles/Dhillon_Topic5_Lab1_Groccery.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Dhillon_Topic5_Lab1_Groccery.dir/build.make CMakeFiles/Dhillon_Topic5_Lab1_Groccery.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Dhillon_Topic5_Lab1_Groccery.dir/build.make CMakeFiles/Dhillon_Topic5_Lab1_Groccery.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/karamveerdhillon/CSC120/cmake-build-debug/CMakeFiles --progress-num=7,8 "Built target Dhillon_Topic5_Lab1_Groccery"
+.PHONY : CMakeFiles/Dhillon_Topic5_Lab1_Groccery.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/Dhillon_Topic5_Lab1_Groccery.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/karamveerdhillon/CSC120/cmake-build-debug/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/Dhillon_Topic5_Lab1_Groccery.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/karamveerdhillon/CSC120/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/Dhillon_Topic5_Lab1_Groccery.dir/rule
+
+# Convenience name for target.
+Dhillon_Topic5_Lab1_Groccery: CMakeFiles/Dhillon_Topic5_Lab1_Groccery.dir/rule
+.PHONY : Dhillon_Topic5_Lab1_Groccery
+
+# clean rule for target.
+CMakeFiles/Dhillon_Topic5_Lab1_Groccery.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Dhillon_Topic5_Lab1_Groccery.dir/build.make CMakeFiles/Dhillon_Topic5_Lab1_Groccery.dir/clean
+.PHONY : CMakeFiles/Dhillon_Topic5_Lab1_Groccery.dir/clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/Dhillon_Topic5_Reading_Assignment.dir
 
 # All Build rule for target.
 CMakeFiles/Dhillon_Topic5_Reading_Assignment.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Dhillon_Topic5_Reading_Assignment.dir/build.make CMakeFiles/Dhillon_Topic5_Reading_Assignment.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Dhillon_Topic5_Reading_Assignment.dir/build.make CMakeFiles/Dhillon_Topic5_Reading_Assignment.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/karamveerdhillon/CSC120/cmake-build-debug/CMakeFiles --progress-num=7,8 "Built target Dhillon_Topic5_Reading_Assignment"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/karamveerdhillon/CSC120/cmake-build-debug/CMakeFiles --progress-num=9,10 "Built target Dhillon_Topic5_Reading_Assignment"
 .PHONY : CMakeFiles/Dhillon_Topic5_Reading_Assignment.dir/all
 
 # Build rule for subdir invocation for target.
@@ -209,7 +239,7 @@ CMakeFiles/Dhillon_Topic5_Reading_Assignment.dir/clean:
 CMakeFiles/Dhillon_Topic5_lab1.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Dhillon_Topic5_lab1.dir/build.make CMakeFiles/Dhillon_Topic5_lab1.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Dhillon_Topic5_lab1.dir/build.make CMakeFiles/Dhillon_Topic5_lab1.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/karamveerdhillon/CSC120/cmake-build-debug/CMakeFiles --progress-num=9,10 "Built target Dhillon_Topic5_lab1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/karamveerdhillon/CSC120/cmake-build-debug/CMakeFiles --progress-num=11,12 "Built target Dhillon_Topic5_lab1"
 .PHONY : CMakeFiles/Dhillon_Topic5_lab1.dir/all
 
 # Build rule for subdir invocation for target.
@@ -229,13 +259,39 @@ CMakeFiles/Dhillon_Topic5_lab1.dir/clean:
 .PHONY : CMakeFiles/Dhillon_Topic5_lab1.dir/clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/bug_Assignment.dir
+
+# All Build rule for target.
+CMakeFiles/bug_Assignment.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bug_Assignment.dir/build.make CMakeFiles/bug_Assignment.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bug_Assignment.dir/build.make CMakeFiles/bug_Assignment.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/karamveerdhillon/CSC120/cmake-build-debug/CMakeFiles --progress-num=13,14 "Built target bug_Assignment"
+.PHONY : CMakeFiles/bug_Assignment.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/bug_Assignment.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/karamveerdhillon/CSC120/cmake-build-debug/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/bug_Assignment.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/karamveerdhillon/CSC120/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/bug_Assignment.dir/rule
+
+# Convenience name for target.
+bug_Assignment: CMakeFiles/bug_Assignment.dir/rule
+.PHONY : bug_Assignment
+
+# clean rule for target.
+CMakeFiles/bug_Assignment.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bug_Assignment.dir/build.make CMakeFiles/bug_Assignment.dir/clean
+.PHONY : CMakeFiles/bug_Assignment.dir/clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/dhillon_Topic2_HW.dir
 
 # All Build rule for target.
 CMakeFiles/dhillon_Topic2_HW.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/dhillon_Topic2_HW.dir/build.make CMakeFiles/dhillon_Topic2_HW.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/dhillon_Topic2_HW.dir/build.make CMakeFiles/dhillon_Topic2_HW.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/karamveerdhillon/CSC120/cmake-build-debug/CMakeFiles --progress-num=11,12 "Built target dhillon_Topic2_HW"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/karamveerdhillon/CSC120/cmake-build-debug/CMakeFiles --progress-num=15,16 "Built target dhillon_Topic2_HW"
 .PHONY : CMakeFiles/dhillon_Topic2_HW.dir/all
 
 # Build rule for subdir invocation for target.
@@ -261,7 +317,7 @@ CMakeFiles/dhillon_Topic2_HW.dir/clean:
 CMakeFiles/dhillon_Topic2_Lab1.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/dhillon_Topic2_Lab1.dir/build.make CMakeFiles/dhillon_Topic2_Lab1.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/dhillon_Topic2_Lab1.dir/build.make CMakeFiles/dhillon_Topic2_Lab1.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/karamveerdhillon/CSC120/cmake-build-debug/CMakeFiles --progress-num=13,14 "Built target dhillon_Topic2_Lab1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/karamveerdhillon/CSC120/cmake-build-debug/CMakeFiles --progress-num=17,18 "Built target dhillon_Topic2_Lab1"
 .PHONY : CMakeFiles/dhillon_Topic2_Lab1.dir/all
 
 # Build rule for subdir invocation for target.
@@ -287,7 +343,7 @@ CMakeFiles/dhillon_Topic2_Lab1.dir/clean:
 CMakeFiles/dhillon_Topic2_Lab3.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/dhillon_Topic2_Lab3.dir/build.make CMakeFiles/dhillon_Topic2_Lab3.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/dhillon_Topic2_Lab3.dir/build.make CMakeFiles/dhillon_Topic2_Lab3.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/karamveerdhillon/CSC120/cmake-build-debug/CMakeFiles --progress-num=15,16 "Built target dhillon_Topic2_Lab3"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/karamveerdhillon/CSC120/cmake-build-debug/CMakeFiles --progress-num=19,20 "Built target dhillon_Topic2_Lab3"
 .PHONY : CMakeFiles/dhillon_Topic2_Lab3.dir/all
 
 # Build rule for subdir invocation for target.
@@ -313,7 +369,7 @@ CMakeFiles/dhillon_Topic2_Lab3.dir/clean:
 CMakeFiles/dhillon_Topic2_Lab4.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/dhillon_Topic2_Lab4.dir/build.make CMakeFiles/dhillon_Topic2_Lab4.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/dhillon_Topic2_Lab4.dir/build.make CMakeFiles/dhillon_Topic2_Lab4.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/karamveerdhillon/CSC120/cmake-build-debug/CMakeFiles --progress-num=17,18 "Built target dhillon_Topic2_Lab4"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/karamveerdhillon/CSC120/cmake-build-debug/CMakeFiles --progress-num=21,22 "Built target dhillon_Topic2_Lab4"
 .PHONY : CMakeFiles/dhillon_Topic2_Lab4.dir/all
 
 # Build rule for subdir invocation for target.
@@ -339,7 +395,7 @@ CMakeFiles/dhillon_Topic2_Lab4.dir/clean:
 CMakeFiles/dhillon_Topic2_Lab5.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/dhillon_Topic2_Lab5.dir/build.make CMakeFiles/dhillon_Topic2_Lab5.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/dhillon_Topic2_Lab5.dir/build.make CMakeFiles/dhillon_Topic2_Lab5.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/karamveerdhillon/CSC120/cmake-build-debug/CMakeFiles --progress-num=19,20 "Built target dhillon_Topic2_Lab5"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/karamveerdhillon/CSC120/cmake-build-debug/CMakeFiles --progress-num=23,24 "Built target dhillon_Topic2_Lab5"
 .PHONY : CMakeFiles/dhillon_Topic2_Lab5.dir/all
 
 # Build rule for subdir invocation for target.
@@ -365,7 +421,7 @@ CMakeFiles/dhillon_Topic2_Lab5.dir/clean:
 CMakeFiles/dhillon_Topic3_Lab1.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/dhillon_Topic3_Lab1.dir/build.make CMakeFiles/dhillon_Topic3_Lab1.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/dhillon_Topic3_Lab1.dir/build.make CMakeFiles/dhillon_Topic3_Lab1.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/karamveerdhillon/CSC120/cmake-build-debug/CMakeFiles --progress-num=21,22 "Built target dhillon_Topic3_Lab1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/karamveerdhillon/CSC120/cmake-build-debug/CMakeFiles --progress-num=25,26 "Built target dhillon_Topic3_Lab1"
 .PHONY : CMakeFiles/dhillon_Topic3_Lab1.dir/all
 
 # Build rule for subdir invocation for target.
@@ -391,7 +447,7 @@ CMakeFiles/dhillon_Topic3_Lab1.dir/clean:
 CMakeFiles/dhillon_Topic4_lab1.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/dhillon_Topic4_lab1.dir/build.make CMakeFiles/dhillon_Topic4_lab1.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/dhillon_Topic4_lab1.dir/build.make CMakeFiles/dhillon_Topic4_lab1.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/karamveerdhillon/CSC120/cmake-build-debug/CMakeFiles --progress-num=23,24 "Built target dhillon_Topic4_lab1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/karamveerdhillon/CSC120/cmake-build-debug/CMakeFiles --progress-num=27,28 "Built target dhillon_Topic4_lab1"
 .PHONY : CMakeFiles/dhillon_Topic4_lab1.dir/all
 
 # Build rule for subdir invocation for target.
@@ -417,7 +473,7 @@ CMakeFiles/dhillon_Topic4_lab1.dir/clean:
 CMakeFiles/dhillon_assessment1_ch1_2.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/dhillon_assessment1_ch1_2.dir/build.make CMakeFiles/dhillon_assessment1_ch1_2.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/dhillon_assessment1_ch1_2.dir/build.make CMakeFiles/dhillon_assessment1_ch1_2.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/karamveerdhillon/CSC120/cmake-build-debug/CMakeFiles --progress-num=25,26 "Built target dhillon_assessment1_ch1_2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/karamveerdhillon/CSC120/cmake-build-debug/CMakeFiles --progress-num=29,30 "Built target dhillon_assessment1_ch1_2"
 .PHONY : CMakeFiles/dhillon_assessment1_ch1_2.dir/all
 
 # Build rule for subdir invocation for target.

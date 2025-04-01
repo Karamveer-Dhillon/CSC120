@@ -29,7 +29,7 @@ int main(){
             cin.ignore();
 
             while (item_Price <= 0 || item_Price >= 50) {
-                cout << "Invalid input. Please enter a price betwee $0.01 and $50:";
+                cout << "Invalid input. Please enter a price between $0.01 and $50:";
                 cin >> item_Price;
                 cin.ignore();
             }
