@@ -20,23 +20,23 @@ int main(){
             cin >> num_Items;
             cin.ignore();
         }
-            // used the for loop because we know the number of time teh loop has to run.
-            for(int i = 0; i < num_Items; i++){
+        // used the for loop because we know the number of time teh loop has to run.
+        for(int i = 0; i < num_Items; i++){
             cout << "Please enter the name of the item:";
             getline(cin,item_Name);
             cout << "Please enter the price of the item:";
             cin >> item_Price;
             cin.ignore();
 
-                while (item_Price <= 0 || item_Price >= 50) {
-                    cout << "Invalid input. Please enter a price betwee $0.01 and $50:";
-                    cin >> item_Price;
-                    cin.ignore();
-                }
+            while (item_Price <= 0 || item_Price >= 50) {
+                cout << "Invalid input. Please enter a price betwee $0.01 and $50:";
+                cin >> item_Price;
+                cin.ignore();
+            }
             total_Price += item_Price;
             cout << item_Name << ": $" << item_Price << " added to the cart."<< endl;
             is_Running = false;
-            }
+        }
     } while (is_Running);
 
     cout << "\nThe total price is $" << total_Price << endl;
