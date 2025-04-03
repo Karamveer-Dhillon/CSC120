@@ -9,6 +9,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/Users/karamveerdhillon/CSC120/Dhillon_Topic5_Lab1_Groccery.cpp" "CMakeFiles/Dhillon_Topic5_Lab1_Groccery.dir/Dhillon_Topic5_Lab1_Groccery.cpp.o" "gcc" "CMakeFiles/Dhillon_Topic5_Lab1_Groccery.dir/Dhillon_Topic5_Lab1_Groccery.cpp.o.d"
+  "/Users/karamveerdhillon/CSC120/Dhillon_Topic5_Lab2.cpp" "CMakeFiles/Dhillon_Topic5_Lab1_Groccery.dir/Dhillon_Topic5_Lab2.cpp.o" "gcc" "CMakeFiles/Dhillon_Topic5_Lab1_Groccery.dir/Dhillon_Topic5_Lab2.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

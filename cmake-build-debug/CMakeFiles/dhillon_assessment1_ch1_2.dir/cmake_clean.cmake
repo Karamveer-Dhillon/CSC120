@@ -1,4 +1,6 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/dhillon_assessment1_ch1_2.dir/Dhillon_Topic5_Lab2.cpp.o"
+  "CMakeFiles/dhillon_assessment1_ch1_2.dir/Dhillon_Topic5_Lab2.cpp.o.d"
   "CMakeFiles/dhillon_assessment1_ch1_2.dir/dhillon_assessment1_ch1_2.cpp.o"
   "CMakeFiles/dhillon_assessment1_ch1_2.dir/dhillon_assessment1_ch1_2.cpp.o.d"
   "bin/dhillon_assessment1_ch1_2"

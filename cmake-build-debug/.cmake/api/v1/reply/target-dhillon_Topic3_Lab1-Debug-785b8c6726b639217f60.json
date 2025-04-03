@@ -2,7 +2,7 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "bin/Dhillon_Topic4_Reading_Assignment"
+			"path" : "bin/dhillon_Topic3_Lab1"
 		}
 	],
 	"backtrace" : 1,
@@ -49,11 +49,12 @@
 			},
 			"sourceIndexes" : 
 			[
-				0
+				0,
+				1
 			]
 		}
 	],
-	"id" : "Dhillon_Topic4_Reading_Assignment::@6890427a1f51a3e7e1df",
+	"id" : "dhillon_Topic3_Lab1::@6890427a1f51a3e7e1df",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -69,8 +70,8 @@
 		],
 		"language" : "CXX"
 	},
-	"name" : "Dhillon_Topic4_Reading_Assignment",
-	"nameOnDisk" : "Dhillon_Topic4_Reading_Assignment",
+	"name" : "dhillon_Topic3_Lab1",
+	"nameOnDisk" : "dhillon_Topic3_Lab1",
 	"paths" : 
 	{
 		"build" : ".",
@@ -82,7 +83,8 @@
 			"name" : "Source Files",
 			"sourceIndexes" : 
 			[
-				0
+				0,
+				1
 			]
 		}
 	],
@@ -91,7 +93,13 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "Dhillon_Topic4_Reading_Assignment.cpp",
+			"path" : "dhillon_Topic3_Lab1.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Dhillon_Topic5_Lab2.cpp",
 			"sourceGroupIndex" : 0
 		}
 	],

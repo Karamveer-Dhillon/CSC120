@@ -23,7 +23,7 @@ int main() {
     outputFile << yourName << "\n";
 
     // Used time(0) in srand to get random vales everytime.
-    srand(time(0));
+    srand(time(nullptr));
 
     // Declared constants for generating the random numbers.
     const int MAX = 100;
