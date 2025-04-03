@@ -94,7 +94,6 @@ int main() {
     cout << "The Smallest number: " << minValue << "\n";
     cout << fixed << setprecision(2) << "The average: " << average << endl;
 
-
     // Return 0 to end the program.
     return 0;
 }
