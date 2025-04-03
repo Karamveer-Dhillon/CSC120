@@ -8,19 +8,19 @@ using namespace std;
 
 int main() {
     // Asked user's name as input.
-    string your_Name;
+    string yourName;
     cout << "Enter your name: ";
-    getline(cin, your_Name);
+    getline(cin, yourName);
 
     // Used ofstream to create and open the file.
-    ofstream file;
-    file.open(your_Name + ".txt");
-    if (!file) {
+    ofstream outputFile;
+    outputFile.open(yourName + ".txt");
+    if (!outputFile) {
             cout << "File could not be opened!" << endl;
             return 1;
         }
     // Output my name to the file.
-    file << your_Name << "\n";
+    outputFile << yourName << "\n";
 
     // Used time(0) in srand to get random vales everytime.
     srand(time(0));
@@ -33,65 +33,65 @@ int main() {
     for (int i = 0; i < 50; i++) {
 
         // Generated random numbers between 0-100.
-        int random_Num = rand() % (MAX - MIN + 1) + MIN ;
+        int randomNum = rand() % (MAX - MIN + 1) + MIN ;
 
         // Output the generated numbers to the file.
-        file << left << setw(4) << random_Num << "";
+        outputFile << left << setw(4) << randomNum;
 
         // used if condition to add a new line after 10 numbers.
-        if ((i + 1) % 10 == 0) file << "\n";
+        if ((i + 1) % 10 == 0) outputFile << "\n";
     }
     //Closed the file.
-    file.close();
+    outputFile.close();
 
     // Used ifstream to open the file to read from it.
-    ifstream in_File;
-    in_File.open(your_Name + ".txt");
+    ifstream inputFile;
+    inputFile.open(yourName + ".txt");
 
-    if (!in_File) {
+    if (!inputFile) {
             cout << "Error opening file for reading!" << endl;
             return 1;
         }
 
     // Declared a string to hold the name read from the file.
-    string in_Name;
-    getline(in_File, in_Name);
+    string inputName;
+    getline(inputFile, inputName);
     // Out put the name in console.
-    cout << "\nThe name in the file is: \n" << in_Name << endl;
+    cout << "\nThe name in the file is: \n" << inputName << endl;
 
     //Declared a variable to store the value of the numbers read from the file
-    int in_Num;
-    int values_Read = 0;
+    int inputNumber;
+    int valuesRead = 0;
     double total = 0;
-    int max_Value = MIN;
-    int min_Value = MAX;
+    int maxValue = MIN;
+    int minValue = MAX;
 
-    while(in_File >> in_Num) {
+    while(inputFile >> inputNumber) {
         // add 1 to the value of the numbers read from the file every loop.
-        values_Read++;
+        valuesRead++;
         // add the value of the numbers read from the file every loop.
-        total += in_Num;
+        total += inputNumber;
 
         // used to check if the number is less than the current minimum
-        if (in_Num < min_Value) min_Value = in_Num;
+        if (inputNumber < minValue) minValue = inputNumber;
         // used to check if the number is greater than the current maximum
-        if (in_Num > max_Value) max_Value = in_Num;
+        if (inputNumber > maxValue) maxValue = inputNumber;
 
         // Output the number in console.
-        cout << left << setw(4) << in_Num;
+        cout << left << setw(4) << inputNumber;
         // Added a new line after every 2 numbers.
-        if ((values_Read) % 2 == 0) cout << "\n";
+        if ((valuesRead) % 2 == 0) cout << "\n";
     }
     // Close the file after reading.
-    in_File.close();
+    inputFile.close();
 
     // Calculated average;
-    double average = total / values_Read;
+    double average = total / valuesRead;
     // Display the final values.
-    cout << "\nThe number of values read: " << values_Read << "\n";
+    cout << "\nThe number of values read: " << valuesRead << "\n";
     cout << "The total: " << total << "\n";
-    cout << "The Largest number: " << max_Value << "\n";
-    cout << "The Smallest number: " << min_Value << "\n";
+    cout << "The Largest number: " << maxValue << "\n";
+    cout << "The Smallest number: " << minValue << "\n";
     cout << fixed << setprecision(2) << "The average: " << average << endl;
 
 
