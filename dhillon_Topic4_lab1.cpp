@@ -19,44 +19,44 @@ using namespace std;
 int main()
 {
 	// used srand function to generate random number.
-	// used time(0) to get the current time in miliseconds to change the random number every milisecond.
+	// used time(0) to get the current time in milliseconds to change the random number every millisecond.
 	srand((unsigned)time(0));
 
 	// used rand function to generate random number between 1 and 10.
-	int random_num = rand() % 10 + 1;
+	int randomNum = rand() % 10 + 1;
 	
 	// declared a string variable to store the user's name.
-	string user_name;
+	string userName;
 
 	// declared an unsigned int variable to store the user's number.
-	unsigned int user_num;
+	unsigned int userNum;
 
 	// asked the user to enter their full name.
 	cout << "Please write your full name" << endl;
 
 	// used getline to get the full name of the user.
-	getline(cin, user_name);
+	getline(cin, userName);
 
 	// asked the user to enter a number between 1 and 10.
 	cout << "please enter a number between 1 and 10" << endl;
 
 	// used cin to get the user's number.
-	cin >> user_num;
+	cin >> userNum;
 	
 	// used if statement to check if the user's number is less than 1 or greater than 10.
-	if (user_num < 1 || user_num > 10)
+	if (userNum < 1 || userNum > 10)
 	{
 		// if the user's number is less than 1 or greater than 10
 		// then asked the user to enter a valid number between 1 and 10.
 		cout << "Please enter a valid number between 1 and 10" << endl;
 
 		// used cin to get the user's number.
-		cin >> user_num;
+		cin >> userNum;
 		
 	}
 	
 	// used if statement to check if the user's number is greater than the random number.
-	if (user_num > random_num)
+	if (userNum > randomNum)
 	{
 		// if the user's number is greater than the random number
 		// then told the user that the number is too high.
@@ -65,19 +65,19 @@ int main()
 		// asked the user to enter a new number between 1 and 10 again.
 		cout << "Please enter a new number between 1 and 10 again" << endl;
 		// used cin to get the user's number.
-		cin >> user_num;
+		cin >> userNum;
 
 			// used if statement to check if the user's number is greater or less than the random number.
 			// and told the user if the number is too high or too low.
-			if (user_num > random_num) cout << "Too High !!" << endl;
-			if (user_num < random_num) cout << "Too Low !!" << endl;
+			if (userNum > randomNum) cout << "Too High !!" << endl;
+			if (userNum < randomNum) cout << "Too Low !!" << endl;
 			
 			// if the user's number is equal to the random number then told the user that they guessed it correctly.
-			else if (user_num == random_num) cout << "You guessed it!!" << endl;
+			else if (userNum == randomNum) cout << "You guessed it!!" << endl;
 			
 			
 	}	// used else if statement to check if the user's number is less than the random number.
-		else if (user_num < random_num)
+		else if (userNum < randomNum)
 	{	
 		// if the user's number is less than the random number
 		// then told the user that the number is too low.
@@ -86,22 +86,21 @@ int main()
 		// asked the user to enter a new number between 1 and 10 again.
 		cout << "Please enter a new number between 1 and 10" << endl;
 		// used cin to get the user's number.
-		cin >> user_num;
+		cin >> userNum;
 		
 		// used if statement to check if the user's number is greater or less than the random number.
 		// and told the user if the number is too high or too low.
-		if (user_num > random_num) cout << "Too High !!" << endl;
-		if (user_num < random_num) cout << "Too Low !!" << endl;
+		if (userNum > randomNum) cout << "Too High !!" << endl;
+		if (userNum < randomNum) cout << "Too Low !!" << endl;
 		// if the user's number is equal to the random number then told the user that they guessed it correctly.
-		else if (user_num == random_num) cout << "You guessed it!!" << endl;
+		else if (userNum == randomNum) cout << "You guessed it!!" << endl;
 	}
 		// if the user's number is equal to the random number then told the user that they guessed it correctly.
 		else cout << "You guessed it!! " << endl;
 
 	// used cout to print the random number.
-	cout << "The number was " << random_num << endl;
+	cout << "The number was " << randomNum << endl;
 
 	// used return 0 to end the program.
 	return 0;
 }
-

@@ -12,7 +12,7 @@ using namespace std;
 int main()
 {
     // declare a variable to hold user input
-    char user_input;
+    char userInput;
 
     // ask the user to select their favorite pet
     cout << "Please select your favorite pet from the list below:" << endl;
@@ -25,13 +25,13 @@ int main()
     cout << "enter \"F\" for Snake" << endl;
     cout << "enter \"G\" for Other" << endl;
     // get user input
-    cin >> user_input;
+    cin >> userInput;
 
     // convert user input to uppercase to allow user to enter lowercase or uppercase letters
-    user_input = toupper(user_input);
+    userInput = toupper(userInput);
 
     // use a switch statement to display a message based on user input
-    switch (user_input)
+    switch (userInput)
     {
     case 'A':
         cout << "You like cats!" << endl;

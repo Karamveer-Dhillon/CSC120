@@ -12,27 +12,27 @@ using namespace std;
 
 int main()
 {  
-   //Initializing the variables
+   // Initializing the variables
 
-   string my_Name = "Karamveer Dhillon";
+   string myName = "Karamveer Dhillon";
    string product = "Ghirardelli Dark Chocolate Brownie";
    double calories = 140;
    double fat = 3.5;
    double carbohydrates = 25;
-   double num_Servings = 3;
+   double numServings = 3;
 
    // Calculating the total values by multiplying by the number of servings
 
-   double total_Calories = num_Servings * calories;
-   double total_Carbohydrates = num_Servings * carbohydrates;
-   double total_Fat = num_Servings * fat;
+   double totalCalories = numServings * calories;
+   double totalCarbohydrates = numServings * carbohydrates;
+   double totalFat = numServings * fat;
 
    // Using cout to output the required values
-   cout << "My Name: " << my_Name << endl;
+   cout << "My Name: " << myName << endl;
    cout << "Product Name: " << product << endl;
-   cout << "Total Calories"<<" ("<<num_Servings<<" Servings)" <<": " << total_Calories << endl;
-   cout << "Total Fat"<<" ("<<num_Servings<<" Servings)" <<": " << total_Fat << "g" << endl;
-   cout << "Total Carbohydrates"<<" ("<<num_Servings<<" Servings)" <<": " << total_Carbohydrates <<"g" << endl;
+   cout << "Total Calories"<<" ("<<numServings<<" Servings)" <<": " << totalCalories << endl;
+   cout << "Total Fat"<<" ("<<numServings<<" Servings)" <<": " << totalFat << "g" << endl;
+   cout << "Total Carbohydrates"<<" ("<<numServings<<" Servings)" <<": " << totalCarbohydrates <<"g" << endl;
 
    return 0;
 }

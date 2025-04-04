@@ -3,43 +3,43 @@
 using namespace std;
 
 int main(){
-    int num_Items;
-    string item_Name;
-    double item_Price;
-    double total_Price = 0;
+    int numItems;
+    string itemName;
+    double itemPrice;
+    double totalPrice = 0;
 
     // used a boolean to run the loop.
-    bool is_Running = true;
+    bool isRunning = true;
     do{
         cout << "Please enter the number of items in the grocery cart:";
-        cin >> num_Items;
+        cin >> numItems;
         cin.ignore();
 
-        while (num_Items <= 0 || num_Items >= 30) {
+        while (numItems <= 0 || numItems >= 30) {
             cout << "Invalid input. Please enter a number between 1 and 30:";
-            cin >> num_Items;
+            cin >> numItems;
             cin.ignore();
         }
-        // used the for loop because we know the number of time teh loop has to run.
-        for(int i = 0; i < num_Items; i++){
+        // used the for loop because we know the number of time the loop has to run.
+        for(int i = 0; i < numItems; i++){
             cout << "Please enter the name of the item:";
-            getline(cin,item_Name);
+            getline(cin, itemName);
             cout << "Please enter the price of the item:";
-            cin >> item_Price;
+            cin >> itemPrice;
             cin.ignore();
 
-            while (item_Price <= 0 || item_Price >= 50) {
+            while (itemPrice <= 0 || itemPrice >= 50) {
                 cout << "Invalid input. Please enter a price between $0.01 and $50:";
-                cin >> item_Price;
+                cin >> itemPrice;
                 cin.ignore();
             }
-            total_Price += item_Price;
-            cout << item_Name << ": $" << item_Price << " added to the cart."<< endl;
-            is_Running = false;
+            totalPrice += itemPrice;
+            cout << itemName << ": $" << itemPrice << " added to the cart." << endl;
+            isRunning = false;
         }
-    } while (is_Running);
+    } while (isRunning);
 
-    cout << "\nThe total price is $" << total_Price << endl;
+    cout << "\nThe total price is $" << totalPrice << endl;
     return 0;
 }
 // I used a do while loop and a for loop. I used the for loop

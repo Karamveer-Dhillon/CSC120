@@ -19,13 +19,12 @@ int main() {
 srand(time(0));
 const int SECRET_NUMBER = rand() % 100 + 1;
 
-
 // variable to keep track of the number of tries.
-int number_Tries = 0;
+int numberTries = 0;
 
 // variable to store the user's name and the guessed number.
-string name;
-int user_Number;
+string userName;
+int userNumber;
 // Displaying the welcome message and instructions to the user.
 cout << "----------------------------------------\n";
 cout << "Welcome to the Number Guessing Game.\n";
@@ -34,8 +33,8 @@ cout << "Your task is to guess the secret number.\n";
 cout << "----------------------------------------\n";
 cout << "Please enter your name.\n";
 // Taking the user's name as input.
-getline(cin,name);
-cout << "Hello " << name << ".\n";
+getline(cin, userName);
+cout << "Hello " << userName << ".\n";
 cout << "Let's start the game.\n";
 cout << "----------------------------------------\n";
 
@@ -44,50 +43,49 @@ do {
     // Constants for the range of numbers.
     const int MIN_NUMBER = 1;
     const int MAX_NUMBER = 100;
-    cout << "Please enter a number between "<< MIN_NUMBER << " and " << MAX_NUMBER<<".\n";
-    cin >> user_Number;
+    cout << "Please enter a number between " << MIN_NUMBER << " and " << MAX_NUMBER << ".\n";
+    cin >> userNumber;
 
-    //used cin.fail() to check if the input is a number.
+    // used cin.fail() to check if the input is a number.
     // If the input is not a number, clear the error state and ignore the invalid input.
-    while (cin.fail()){
-        cin.clear(); 
+    while (cin.fail()) {
+        cin.clear();
         cin.ignore(numeric_limits<streamsize>::max(), '\n');
         cout << "Invalid input!! Please enter a valid number between " << MIN_NUMBER << " and " << MAX_NUMBER << ".\n";
-        cin >> user_Number;
+        cin >> userNumber;
     }
 
     // Check if the number is within the valid range.
     // If the number is out of range, prompt the user to enter a valid number.
-    while(user_Number < MIN_NUMBER || user_Number > MAX_NUMBER){
-        cout << "You entered an invalid number.\n Please enter a number between "<< MIN_NUMBER << " and " << MAX_NUMBER <<",\n";
-        cin >> user_Number;
+    while (userNumber < MIN_NUMBER || userNumber > MAX_NUMBER) {
+        cout << "You entered an invalid number.\n Please enter a number between " << MIN_NUMBER << " and " << MAX_NUMBER << ",\n";
+        cin >> userNumber;
 
-        //used cin.fail() to check if the input is a number.
+        // used cin.fail() to check if the input is a number.
         // If the input is not a number, clear the error state and ignore the invalid input.
-        while (cin.fail()){
-            cin.clear(); 
+        while (cin.fail()) {
+            cin.clear();
             cin.ignore(numeric_limits<streamsize>::max(), '\n');
             cout << "Invalid input!! Please enter a valid number between " << MIN_NUMBER << " and " << MAX_NUMBER << ".\n";
-            cin >> user_Number;
+            cin >> userNumber;
         }
     }
-    ++number_Tries;
+    ++numberTries;
     // Check if the guessed number is equal to the secret number.
     // If the guessed number is equal to the secret number, congratulate the user.
     // If the guessed number is not equal to the secret number, provide feedback if the guessed number is too high or too low.
-    if (user_Number > SECRET_NUMBER){
+    if (userNumber > SECRET_NUMBER) {
         cout << "Too High!!\n";
-    }
-    else if (user_Number < SECRET_NUMBER){
+    } else if (userNumber < SECRET_NUMBER) {
         cout << "Too Low!!\n";
     }
-}   while (user_Number != SECRET_NUMBER);
+} while (userNumber != SECRET_NUMBER);
 
 // Congratulate the user for guessing the correct number and display the number of tries taken.
 cout << "----------------------------------------\n";
-cout << "Congratulations!! "<< name <<  ". You guessed it.\n";
+cout << "Congratulations!! " << userName << ". You guessed it.\n";
 cout << "The secret number was " << SECRET_NUMBER << ".\n";
-cout << "You took " << number_Tries << " tries to guess the correct number.\n";
+cout << "You took " << numberTries << " tries to guess the correct number.\n";
 cout << "Thank you for playing the game.\n";
 cout << "----------------------------------------\n";
 return 0;

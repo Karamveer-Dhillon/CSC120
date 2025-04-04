@@ -1,25 +1,25 @@
 #include <iostream>
 
 int main(){
-    int red_Bugs = 1;
-    int green_Bugs = 3745854;
+    int redBugs = 1;
+    int greenBugs = 3745854;
     int days = 0;
 
-    std::cout<<"Day "<<days<<": Red Bugs = "<<red_Bugs<<", Green Bugs = "<<green_Bugs<<std::endl;
+    std::cout<<"Day "<<days<<": Red Bugs = "<<redBugs<<", Green Bugs = "<<greenBugs<<std::endl;
     do {
         days++;
         // if the red bugs are more than green bugs
         // then add green bugs to red bugs
         // and subtract all the green bugs.
-        if (red_Bugs > green_Bugs) {
-            red_Bugs += green_Bugs;
-            green_Bugs -= green_Bugs;
+        if (redBugs > greenBugs) {
+            redBugs += greenBugs;
+            greenBugs -= greenBugs;
         } else {
-            green_Bugs = green_Bugs - red_Bugs;
-            red_Bugs += red_Bugs;
+            greenBugs = greenBugs - redBugs;
+            redBugs += redBugs;
         }
-        std::cout<<"Day "<<days<<": Red Bugs = "<<red_Bugs<<", Green Bugs = "<<green_Bugs<<std::endl;
-    } while(green_Bugs > 0);
+        std::cout<<"Day "<<days<<": Red Bugs = "<<redBugs<<", Green Bugs = "<<greenBugs<<std::endl;
+    } while(greenBugs > 0);
 
     return 0;
 }
