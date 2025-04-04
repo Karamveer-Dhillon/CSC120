@@ -9,15 +9,18 @@ using namespace std;
 int main() {
     // Asked user's name as input.
     string yourName;
+    // Declared a string to hold the path of the file.
     string path = "/Users/karamveerdhillon/Executables/";
+    // Declared a string to hold the file extension.
+    string fileExtension = ".txt";
     cout << "Enter your name: ";
     getline(cin, yourName);
-    string filePath = path + yourName + ".txt";
-    cout << filePath << endl;
+    string fullFilePath = path + yourName + fileExtension;
+    cout << fullFilePath << endl;
 
     // Used ofstream to create and open the file.
     ofstream outputFile;
-    outputFile.open(filePath);
+    outputFile.open(fullFilePath);
     if (!outputFile) {
             cout << "File could not be opened!" << endl;
             return 1;
@@ -49,7 +52,7 @@ int main() {
 
     // Used ifstream to open the file to read from it.
     ifstream inputFile;
-    inputFile.open(filePath);
+    inputFile.open(fullFilePath);
 
     if (!inputFile) {
             cout << "Error opening file for reading!" << endl;
