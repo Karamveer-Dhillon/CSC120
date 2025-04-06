@@ -1,12 +1,12 @@
 *
 !*.gitignore
 !*/
-*!cmake-build-debug
-*!cmake-build-release
+*cmake-build-debug
+*cmake-build-release
 !*.cpp
 !*.h
 !*.hpp
 !*.c
 !*.py
 !*.java
-!*CMakeLists.txt
+*CMakeLists.txt
