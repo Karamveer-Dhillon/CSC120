@@ -9,3 +9,4 @@
 !*.c
 !*.py
 !*.java
+!*CMakeLists.txt
