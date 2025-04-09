@@ -43,7 +43,7 @@ int main() {
         int randomNum = rand() % (MAX - MIN + 1) + MIN ;
 
         // Output the generated numbers to the file.
-        outputFile << left << setw(4) << randomNum;
+        outputFile << setw(4) << randomNum;
 
         // used if condition to add a new line after 10 numbers.
         if ((i + 1) % 10 == 0) outputFile << "\n";
@@ -85,7 +85,7 @@ int main() {
         if (inputNumber > maxValue) maxValue = inputNumber;
 
         // Output the number in console.
-        cout << left << setw(4) << inputNumber;
+        cout << setw(4) << inputNumber;
         // Added a new line after every 2 numbers.
         if ((valuesRead) % 2 == 0) cout << "\n";
     }
