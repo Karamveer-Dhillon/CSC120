@@ -4,9 +4,6 @@ File Name: Dhillon_Topic6_Lab1.cpp
 Date: 9 April 2025
 Description: This program uses functions and calculates the sum of all numbers between two integers.
 */
-
-
-
 #include <iostream>
 #include <string>
 
