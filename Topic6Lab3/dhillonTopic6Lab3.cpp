@@ -1,6 +1,6 @@
 /*
   Author: Karamveer Dhillon
-  Date: 15 April 2025
+  Date: 16 April 2025
   Filename:dhillonTopic6Lab3.cpp
   Description: This program demonstrates the use of functions in C++.
   It includes functions to calculate the average of two integers,
