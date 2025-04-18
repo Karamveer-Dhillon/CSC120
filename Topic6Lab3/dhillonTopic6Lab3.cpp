@@ -1,7 +1,7 @@
 /*
   Author: Karamveer Dhillon
   Date: 16 April 2025
-  Filename:dhillonTopic6Lab3.cpp
+  Filename: dhillonTopic6Lab3.cpp
   Description: This program demonstrates the use of functions in C++.
   It includes functions to calculate the average of two integers,
   check if a number is odd,and check if two or more numbers are the same.
@@ -60,7 +60,8 @@ int main()
   << endl;
 
 
-  // return 0 to main function.
+  // return 0 to the main function to indicate success.
+
   return 0;
 }
 // Function definitions
@@ -89,6 +90,6 @@ bool isSame(int firstNum, int secondNum, int thirdNum, int compareNum) {
 }
 
 // Define the bool isSame function.
-bool isSame(int number, int compareNum) {
+bool isSame(const int number, const int compareNum) {
   return number == compareNum;
 }
