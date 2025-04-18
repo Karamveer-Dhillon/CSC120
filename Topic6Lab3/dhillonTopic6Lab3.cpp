@@ -36,28 +36,22 @@ int main()
 
   // Calling the isOdd function.
   int value = 42;
-  cout << "The value " << value << " is odd: "
-  << (isOdd(value) ? "True" : "False") << endl;
+  cout << "The value " << value << " is odd: " << (isOdd(value) ? "True" : "False") << endl;
 
   // Calling the isSame functions.
   int firstNum = 10;
   int secondNum = 13;
 
-  cout
-  << "The values of firstNum(" << firstNum << ") and secondNum("
-  << secondNum << ") are same: "
-  << (isSame(firstNum, secondNum) ? "True" : "False") << endl;
+  cout << "The values of firstNum(" << firstNum << ") and secondNum(" << secondNum
+       << ") are same: " << (isSame(firstNum, secondNum) ? "True" : "False") << endl;
 
   // Calling the isSame function with four parameters.
   int thirdNum = 15;
   int compareNum = 17;
 
-  cout
-  << "The compareNum(" << compareNum << ") is the same as firstNum("
-  << firstNum << "), secondNum(" << secondNum
-  << "), OR thirdNum(" << thirdNum
-  << "): " << (isSame(firstNum, secondNum, thirdNum, compareNum) ? "True" : "False")
-  << endl;
+  cout << "The compareNum(" << compareNum << ") is the same as firstNum(" << firstNum << "), secondNum(" << secondNum
+       << "), OR thirdNum(" << thirdNum
+       << "): " << (isSame(firstNum, secondNum, thirdNum, compareNum) ? "True" : "False") << endl;
 
 
   // return 0 to the main function to indicate success.
@@ -67,29 +61,19 @@ int main()
 // Function definitions
 
 // Define the double avg function.
-double avg(int sum, int count) {
-  return static_cast<double>(sum) / count;
-}
+double avg(int sum, int count) { return static_cast<double>(sum) / count; }
 
 // Define the void avg function.
-void avg(int sum, int count, double& average) {
-  average = static_cast<double>(sum) / count;
-}
+void avg(int sum, int count, double& average) { average = static_cast<double>(sum) / count; }
 
 // Define the bool isOdd function.
-bool isOdd(int value) {
-  return value % 2 != 0;
-}
+bool isOdd(int value) { return value % 2 != 0; }
 
 // Define the bool isSame function with four parameters.
-bool isSame(int firstNum, int secondNum, int thirdNum, int compareNum) {
-  return
-     isSame(firstNum, compareNum)
-  || isSame(secondNum, compareNum)
-  || isSame(thirdNum, compareNum);
+bool isSame(int firstNum, int secondNum, int thirdNum, int compareNum)
+{
+  return isSame(firstNum, compareNum) || isSame(secondNum, compareNum) || isSame(thirdNum, compareNum);
 }
 
 // Define the bool isSame function.
-bool isSame(const int number, const int compareNum) {
-  return number == compareNum;
-}
+bool isSame(const int number, const int compareNum) { return number == compareNum; }
