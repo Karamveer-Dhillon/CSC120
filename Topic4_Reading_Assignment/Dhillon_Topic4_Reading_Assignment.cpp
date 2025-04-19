@@ -4,7 +4,7 @@
  Description: This program is a dice game between the user and Megatron. The user and Megatron take turns rolling dice. The user can choose to roll 1 dice or 2 dice or skip their turn. If a player's score is greater than 15, they lose. If both players have a score less than 15, the player with the score closest to 15 wins. If both players have the same score, it's a tie. The player with the lowest number in a dice throw goes first. The number of dice Megatron rolls is also randomly selected between 1 and 2. The dice rolls are randomly generated between 1 and 8 using rand function. The program outputs the winner or a tie.
 */
 
-// inporting libraries
+// importing libraries
 #include <iostream>
 #include <ctime>
 
