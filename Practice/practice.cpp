@@ -11,7 +11,7 @@ int main() {
     n++;
   }
 
-  println("%d",n);
+  cout << n << endl;
 
   return 0;
 }
