@@ -11,9 +11,9 @@
 */
 
 // Imported required libraries
-#include <iostream>  // For input/output operations
-#include <string>    // For string
-#include <ctime>     // For time functions to seed random number generator
+#include <iostream>
+#include <string>
+#include <ctime>
 
 // Function Prototypes
 
