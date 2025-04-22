@@ -14,8 +14,10 @@
 #include <iostream>
 #include <string>
 #include <ctime>
+#include <cstdlib>
 
 // Function Prototypes
+
 
 // Prints the number to the console
 void printNumber(int number);
