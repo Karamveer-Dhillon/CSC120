@@ -30,11 +30,6 @@ void printArray(int array[],int size) {
     cout << "\n";
   }
 }
-int[] createArray(){
-
-}
-
-
 int main()
 {
   //seeded the rand function with time
